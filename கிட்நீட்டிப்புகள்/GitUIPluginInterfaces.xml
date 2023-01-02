@@ -1,0 +1,660 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GitUIPluginInterfaces</name>
+    </assembly>
+    <members>
+        <member name="P:GitUIPluginInterfaces.BuildServerIntegration.IBuildServerAdapter.UniqueKey">
+            <summary>
+            Gets a unique key which identifies this build server.
+            </summary>
+        </member>
+        <member name="P:GitUIPluginInterfaces.BuildServerIntegration.IBuildServerTypeMetadata.CanBeLoaded">
+            <summary>
+            returns null if can be loaded, the reason if can't
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.BuildServerIntegration.IBuildServerWatcher.ReplaceVariables(System.String)">
+            <summary>
+            Replace variables for the project string with the current "repo shortname"
+            </summary>
+            <param name="projectNames">build server specific format, compatible with the variable format</param>
+            <returns>projectNames with variables replaced</returns>
+        </member>
+        <member name="F:GitUIPluginInterfaces.GitRevision.WorkTreeGuid">
+            <summary>40 characters of 1's</summary>
+        </member>
+        <member name="F:GitUIPluginInterfaces.GitRevision.IndexGuid">
+            <summary>40 characters of 2's</summary>
+        </member>
+        <member name="F:GitUIPluginInterfaces.GitRevision.CombinedDiffGuid">
+            <summary>40 characters of 2's
+            Artificial commit for the combined diff</summary>
+        </member>
+        <member name="P:GitUIPluginInterfaces.GitRevision.ParentIds">
+            <summary>
+            Gets the revision's parent IDs.
+            </summary>
+            <remarks>
+            Can return <c>null</c> in cases where the data has not been populated
+            for whatever reason.
+            </remarks>
+        </member>
+        <member name="P:GitUIPluginInterfaces.GitRevision.IsArtificial">
+            <summary>
+            Indicates whether the commit is an artificial commit.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.GitRevision.IsFullSha1Hash(System.String)">
+            <summary>
+            Returns a value indicating whether <paramref name="id"/> is a valid SHA-1 hash.
+            </summary>
+            <remarks>
+            To be valid the string must contain exactly 40 lower-case hexadecimal characters.
+            </remarks>
+            <param name="id">The string to validate.</param>
+            <returns><c>true</c> if <paramref name="id"/> is a valid SHA-1 hash, otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IConfigFileSettings.AddConfigSection(GitUIPluginInterfaces.IConfigSection)">
+            <summary>
+            Adds the specific configuration section to the .git/config file.
+            </summary>
+            <param name="configSection">The configuration section.</param>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IConfigFileSettings.GetConfigSections">
+            <summary>
+            Retrieves configuration sections the .git/config file.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IConfigFileSettings.RemoveConfigSection(System.String,System.Boolean)">
+            <summary>
+            Removes the specific configuration section from the .git/config file.
+            </summary>
+            <param name="configSectionName">The name of the configuration section.</param>
+            <param name="performSave">If <see langword="true"/> the configuration changes will be saved immediately.</param>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IConfigFileSettings.Save">
+            <summary>
+            Save pending changes.
+            </summary>
+        </member>
+        <member name="T:GitUIPluginInterfaces.IExecutable">
+            <summary>
+            Defines an executable that can be launched to create processes.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IExecutable.Start(GitCommands.ArgumentString,System.Boolean,System.Boolean,System.Boolean,System.Text.Encoding,System.Boolean)">
+            <summary>
+            Starts a process of this executable.
+            </summary>
+            <remarks>
+            This is a low level means of starting a process. Most code will want to use one of the extension methods
+            provided by <c>ExecutableExtensions</c>.
+            </remarks>
+            <param name="arguments">Any command line arguments to be passed to the executable when it is started.</param>
+            <param name="createWindow">Whether to create a window for the process or not.</param>
+            <param name="redirectInput">Whether the standard input stream of the process will be written to.</param>
+            <param name="redirectOutput">Whether the standard output stream of the process will be read from.</param>
+            <param name="outputEncoding">The <see cref="T:System.Text.Encoding"/> to use when interpreting standard output and standard
+            error, or <c>null</c> if <paramref name="redirectOutput"/> is <c>false</c>.</param>
+            <param name="useShellExecute">The value for the flag <c>ProcessStartInfo.UseShellExecute</c>.</param>
+            <returns>The started process.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IExecutable.GetOutput(GitCommands.ArgumentString)">
+            <summary>
+            Launches a process for the executable and returns its output.
+            </summary>
+            <param name="arguments">The arguments to pass to the executable</param>
+            <returns>The concatenation of standard output and standard error.</returns>
+        </member>
+        <member name="P:GitUIPluginInterfaces.IGitCommand.AccessesRemote">
+            <value>if command accesses remote repository</value>
+        </member>
+        <member name="P:GitUIPluginInterfaces.IGitCommand.ChangesRepoState">
+            <value>true if repo state changes after executing this command</value>
+        </member>
+        <member name="P:GitUIPluginInterfaces.IGitCommand.Arguments">
+            <returns>git command arguments as single line</returns>
+        </member>
+        <member name="T:GitUIPluginInterfaces.IGitModule">
+            <summary>Provides manipulation with git module.</summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitModule.RemoveRemote(System.String)">
+            <summary>
+            Removes the registered remote by running <c>git remote rm</c> command.
+            </summary>
+            <param name="remoteName">The remote name.</param>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitModule.RenameRemote(System.String,System.String)">
+            <summary>
+            Renames the registered remote by running <c>git remote rename</c> command.
+            </summary>
+            <param name="remoteName">The current remote name.</param>
+            <param name="newName">The new remote name.</param>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitModule.RevParse(System.String)">
+            <summary>
+            Parses the revisionExpression as a git reference and returns an <see cref="T:GitUIPluginInterfaces.ObjectId"/>./>
+            </summary>
+            <param name="revisionExpression">An expression like HEAD or commit hash that can be parsed as a git reference.</param>
+            <returns>An ObjectID representing that git reference</returns>
+        </member>
+        <member name="P:GitUIPluginInterfaces.IGitModule.WorkingDir">
+            <summary>Gets the directory which contains the git repository.</summary>
+        </member>
+        <member name="P:GitUIPluginInterfaces.IGitModule.GitExecutable">
+            <summary>
+            Gets the access to the current git executable associated with this module.
+            </summary>
+        </member>
+        <member name="P:GitUIPluginInterfaces.IGitModule.GitCommandRunner">
+            <summary>
+            Gets the access to the current git executable associated with this module.
+            </summary>
+        </member>
+        <member name="P:GitUIPluginInterfaces.IGitModule.WorkingDirGitDir">
+            <summary>
+            Gets the location of .git directory for the current working folder.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitModule.ResolveGitInternalPath(System.String)">
+            <summary>
+            Asks git to resolve the given relativePath
+            git special folders are located in different directories depending on the kind of repo: submodule, worktree, main
+            See https://git-scm.com/docs/git-rev-parse#Documentation/git-rev-parse.txt---git-pathltpathgt
+            </summary>
+            <param name="relativePath">A path relative to the .git directory</param>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitModule.IsValidGitWorkingDir">
+            <summary>Indicates whether the specified directory contains a git repository.</summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitModule.IsDetachedHead">
+            <summary>Indicates HEAD is not pointing to a branch (i.e. it is detached).</summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitModule.GetSubmodulesLocalPaths(System.Boolean)">
+             <summary>
+             Gets the local paths of any submodules of this git module.
+             </summary>
+             <remarks>
+             <para>This method obtains its results by parsing the <c>.gitmodules</c> file.</para>
+            
+             <para>This approach is a faster than <see cref="M:GitUIPluginInterfaces.IGitModule.GetSubmodulesInfo"/> which
+             invokes the <c>git submodule</c> command.</para>
+             </remarks>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitModule.GetRemoteNames">
+            <summary>
+            Retrieves registered remotes by running <c>git remote show</c> command.
+            </summary>
+            <returns>Registered remotes.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitModule.GetCurrentCheckout">
+            <summary>
+            Gets the commit ID of the currently checked out commit.
+            If the repo is bare or has no commits, <c>null</c> is returned.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitModule.GetCurrentRemote">
+            <summary>Gets the remote of the current branch; or "" if no remote is configured.</summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitModule.GetSelectedBranch">
+            <summary>Gets the current branch; or "(no branch)" if HEAD is detached.</summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitModule.IsBareRepository">
+            <summary>true if ".git" directory does NOT exist.</summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitPlugin.Execute(GitUIPluginInterfaces.GitUIEventArgs)">
+            <summary>
+            Runs the plugin and returns whether the RevisionGrid should be refreshed.
+            </summary>
+        </member>
+        <member name="P:GitUIPluginInterfaces.IGitRef.IsDereference">
+            <summary>
+            True when Guid is a checksum of an object (e.g. commit) to which another object
+            with Name (e.g. annotated tag) is applied.
+            <para>False when Name and Guid are denoting the same object.</para>
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitRef.GetTrackingRemote(GitUIPluginInterfaces.ISettingsValueGetter)">
+            <summary>
+            This method is a faster than the property above. The property reads the config file
+            every time it is accessed. This method accepts a config file what makes it faster when loading
+            the revision graph.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitRef.GetMergeWith(GitUIPluginInterfaces.ISettingsValueGetter)">
+            <summary>
+            This method is a faster than the property above. The property reads the config file
+            every time it is accessed. This method accepts a config file which makes it faster when loading
+            the revision graph.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitRef.IsTrackingRemote(GitUIPluginInterfaces.IGitRef)">
+            <summary>
+            Return if the current `GitRef` is tracking another `GitRef` as a remote.
+            </summary>
+            <param name="remote">the expected remote ref tracked</param>
+            <returns>true if the current ref is tracking the expected remote ref
+            false otherwise</returns>
+        </member>
+        <member name="P:GitUIPluginInterfaces.IGitUICommands.RepoChangedNotifier">
+            <summary>
+            RepoChangedNotifier.Notify() should be called after each action that changes repo state
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IGitUICommands.StartRemotesDialog(System.Windows.Forms.IWin32Window,System.String,System.String)">
+            <summary>
+            Opens the FormRemotes.
+            </summary>
+            <param name="preselectRemote">Makes the FormRemotes initially select the given remote.</param>
+            <param name="preselectLocal">Makes the FormRemotes initially show the tab "Default push behavior" and select the given local.</param>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ILockableNotifier.Notify">
+            <summary>
+            notifies if is unlocked
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ILockableNotifier.Lock">
+            <summary>
+            locks raising notification
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ILockableNotifier.UnLock(System.Boolean)">
+            <summary>
+            unlocks raising notification
+            to unlock raising notification, UnLock has to be called as many times as Lock was called
+            </summary>
+            <param name="requestNotify">true if Notify has to be called</param>
+        </member>
+        <member name="P:GitUIPluginInterfaces.ILockableNotifier.IsLocked">
+            <summary>
+            true if raising notification is locked
+            </summary>
+        </member>
+        <member name="T:GitUIPluginInterfaces.IProcess">
+            <summary>
+            Defines a process instance.
+            </summary>
+            <remarks>
+            This process will either be running or exited.
+            </remarks>
+        </member>
+        <member name="P:GitUIPluginInterfaces.IProcess.StandardInput">
+            <summary>
+            Gets an object that facilitates writing to the process's standard input stream.
+            </summary>
+            <remarks>
+            To access the underlying <see cref="T:System.IO.Stream"/>, dereference <see cref="P:System.IO.StreamWriter.BaseStream"/>.
+            </remarks>
+            <exception cref="T:System.InvalidOperationException">This process's input was not redirected
+            when calling <see cref="M:GitUIPluginInterfaces.IExecutable.Start(GitCommands.ArgumentString,System.Boolean,System.Boolean,System.Boolean,System.Text.Encoding,System.Boolean)"/>.</exception>
+        </member>
+        <member name="P:GitUIPluginInterfaces.IProcess.StandardOutput">
+            <summary>
+            Gets an object that facilitates writing to the process's standard output stream.
+            </summary>
+            <remarks>
+            To access the underlying <see cref="T:System.IO.Stream"/>, dereference <see cref="P:System.IO.StreamWriter.BaseStream"/>.
+            </remarks>
+            <exception cref="T:System.InvalidOperationException">This process's output was not redirected
+            when calling <see cref="M:GitUIPluginInterfaces.IExecutable.Start(GitCommands.ArgumentString,System.Boolean,System.Boolean,System.Boolean,System.Text.Encoding,System.Boolean)"/>.</exception>
+        </member>
+        <member name="P:GitUIPluginInterfaces.IProcess.StandardError">
+            <summary>
+            Gets an object that facilitates writing to the process's standard error stream.
+            </summary>
+            <remarks>
+            To access the underlying <see cref="T:System.IO.Stream"/>, dereference <see cref="P:System.IO.StreamWriter.BaseStream"/>.
+            </remarks>
+            <exception cref="T:System.InvalidOperationException">This process's output was not redirected
+            when calling <see cref="M:GitUIPluginInterfaces.IExecutable.Start(GitCommands.ArgumentString,System.Boolean,System.Boolean,System.Boolean,System.Text.Encoding,System.Boolean)"/>.</exception>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IProcess.WaitForExit">
+            <summary>
+            Blocks the calling thread until the process exits, or when this object is disposed.
+            </summary>
+            <returns>The process's exit code, or <c>null</c> if this object was disposed before the process exited.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IProcess.WaitForExitAsync">
+            <summary>
+            Returns a task that completes when the process exits, or when this object is disposed.
+            </summary>
+            <returns>A task that yields the process's exit code, or <c>null</c> if this object was disposed before the process exited.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.IProcess.WaitForInputIdle">
+            <summary>
+            Waits for the process to reach an idle state.
+            </summary>
+            <see cref="M:System.Diagnostics.Process.WaitForInputIdle"/>
+        </member>
+        <member name="P:GitUIPluginInterfaces.ISetting.Name">
+            <summary>
+            Name of the setting
+            </summary>
+        </member>
+        <member name="P:GitUIPluginInterfaces.ISetting.Caption">
+            <summary>
+            Caption of the setting
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ISettingControlBinding.GetControl">
+            <summary>
+            Creates a control to be placed on FormSettings to edit this setting value
+            Control should take care of scalability and resizability of its sub-controls
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ISettingControlBinding.LoadSetting(GitUIPluginInterfaces.ISettingsSource)">
+            <summary>
+            Loads setting value from settings to Control
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ISettingControlBinding.SaveSetting(GitUIPluginInterfaces.ISettingsSource)">
+            <summary>
+            Saves value from Control to settings
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ISettingControlBinding.Caption">
+            <summary>
+            returns caption associated with this control or null if the control layouts
+            the caption by itself
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.SettingControlBinding`2.SaveSetting(GitUIPluginInterfaces.ISettingsSource)">
+            <summary>
+            Saves value from Control to settings
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.SettingControlBinding`2.CreateControl">
+            <summary>
+            Creates a control to be placed on FormSettings to edit this setting value
+            Control should take care of scalability and resizability of its sub-controls
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.SettingControlBinding`2.LoadSetting(GitUIPluginInterfaces.ISettingsSource,`1)">
+            <summary>
+            Loads setting value from settings to Control
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.SettingControlBinding`2.SaveSetting(GitUIPluginInterfaces.ISettingsSource,`1)">
+            <summary>
+            Saves value from Control to settings
+            </summary>
+        </member>
+        <member name="P:GitUIPluginInterfaces.ManagedExtensibility.UserPluginsPath">
+            <summary>
+            Gets a root path where user installed plugins are located.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ManagedExtensibility.SetUserPluginsPath(System.String)">
+            <summary>
+            Sets a root path to a folder where user plugins are located.
+            </summary>
+            <param name="userPluginsPath">A root path to a folder where user plugins are located.</param>
+        </member>
+        <member name="T:GitUIPluginInterfaces.ObjectId">
+            <summary>
+            Models a SHA1 hash.
+            </summary>
+            <remarks>
+            <para>Instances are immutable and are guaranteed to contain valid, 160-bit (20-byte) SHA1 hashes.</para>
+            <para>String forms of this object must be in lower case.</para>
+            </remarks>
+        </member>
+        <member name="P:GitUIPluginInterfaces.ObjectId.WorkTreeId">
+            <summary>
+            Gets the artificial ObjectId used to represent working directory tree (unstaged) changes.
+            </summary>
+        </member>
+        <member name="P:GitUIPluginInterfaces.ObjectId.IndexId">
+            <summary>
+            Gets the artificial ObjectId used to represent changes staged to the index.
+            </summary>
+        </member>
+        <member name="P:GitUIPluginInterfaces.ObjectId.CombinedDiffId">
+            <summary>
+            Gets the artificial ObjectId used to represent combined diff for merge commits.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.Random">
+            <summary>
+            Produces an <see cref="T:GitUIPluginInterfaces.ObjectId"/> populated with random bytes.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.TryParse(System.String,GitUIPluginInterfaces.ObjectId@)">
+            <summary>
+            Attempts to parse an <see cref="T:GitUIPluginInterfaces.ObjectId"/> from <paramref name="s"/>.
+            </summary>
+            <remarks>
+            For parsing to succeed, <paramref name="s"/> must be a valid 40-character SHA-1 string.
+            Any extra characters at the end will cause parsing to fail, unlike for
+            overload <see cref="M:GitUIPluginInterfaces.ObjectId.TryParse(System.String,System.Int32,GitUIPluginInterfaces.ObjectId@)"/>.
+            </remarks>
+            <param name="s">The string to try parsing from.</param>
+            <param name="objectId">The parsed <see cref="T:GitUIPluginInterfaces.ObjectId"/>, or <c>null</c> if parsing was unsuccessful.</param>
+            <returns><c>true</c> if parsing was successful, otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.TryParse(System.String,System.Int32,GitUIPluginInterfaces.ObjectId@)">
+            <summary>
+            Attempts to parse an <see cref="T:GitUIPluginInterfaces.ObjectId"/> from <paramref name="s"/>, starting at <paramref name="offset"/>.
+            </summary>
+            <remarks>
+            For parsing to succeed, <paramref name="s"/> must contain a valid 40-character SHA-1 starting at <paramref name="offset"/>.
+            Any extra characters before or after this substring will be ignored, unlike for
+            overload <see cref="M:GitUIPluginInterfaces.ObjectId.TryParse(System.String,GitUIPluginInterfaces.ObjectId@)"/>.
+            </remarks>
+            <param name="s">The string to try parsing from.</param>
+            <param name="offset">The position within <paramref name="s"/> to start parsing from.</param>
+            <param name="objectId">The parsed <see cref="T:GitUIPluginInterfaces.ObjectId"/>, or <c>null</c> if parsing was unsuccessful.</param>
+            <returns><c>true</c> if parsing was successful, otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.Parse(System.String)">
+            <summary>
+            Parses an <see cref="T:GitUIPluginInterfaces.ObjectId"/> from <paramref name="s"/>.
+            </summary>
+            <remarks>
+            For parsing to succeed, <paramref name="s"/> must be a valid 40-character SHA-1 string.
+            Any extra characters at the end will cause parsing to fail, unlike for
+            overload <see cref="M:GitUIPluginInterfaces.ObjectId.Parse(System.String,System.Int32)"/>.
+            </remarks>
+            <param name="s">The string to try parsing from.</param>
+            <returns>The parsed <see cref="T:GitUIPluginInterfaces.ObjectId"/>.</returns>
+            <exception cref="T:System.FormatException"><paramref name="s"/> did not contain a valid 40-character SHA-1 hash.</exception>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.Parse(System.String,System.Int32)">
+            <summary>
+            Parses an <see cref="T:GitUIPluginInterfaces.ObjectId"/> from <paramref name="s"/>.
+            </summary>
+            <remarks>
+            For parsing to succeed, <paramref name="s"/> must contain a valid 40-character SHA-1 starting at <paramref name="offset"/>.
+            Any extra characters before or after this substring will be ignored, unlike for
+            overload <see cref="M:GitUIPluginInterfaces.ObjectId.Parse(System.String)"/>.
+            </remarks>
+            <param name="s">The string to try parsing from.</param>
+            <param name="offset">The position within <paramref name="s"/> to start parsing from.</param>
+            <returns>The parsed <see cref="T:GitUIPluginInterfaces.ObjectId"/>.</returns>
+            <exception cref="T:System.FormatException"><paramref name="s"/> did not contain a valid 40-character SHA-1 hash.</exception>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.Parse(System.IO.Stream)">
+            <summary>
+            Parses an <see cref="T:GitUIPluginInterfaces.ObjectId"/> from <paramref name="stream"/>.
+            </summary>
+            <remarks>
+            For parsing to succeed, it must be possible to read 20 bytes from <paramref name="stream"/>.
+            </remarks>
+            <param name="stream">The stream to read bytes from.</param>
+            <returns>The parsed <see cref="T:GitUIPluginInterfaces.ObjectId"/>.</returns>
+            <exception cref="T:System.IO.IOException">General error reading from <paramref name="stream"/>.</exception>
+            <exception cref="T:System.IO.EndOfStreamException"><paramref name="stream"/> ended before 20 bytes could be read.</exception>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.Parse(System.Byte[],System.Int32)">
+            <summary>
+            Parses an <see cref="T:GitUIPluginInterfaces.ObjectId"/> from <paramref name="bytes"/> at the given <paramref name="index"/>.
+            </summary>
+            <remarks>
+            For parsing to succeed, there must be 20 bytes in <paramref name="bytes"/> starting at <paramref name="index"/>.
+            </remarks>
+            <param name="bytes">The byte array to parse from.</param>
+            <param name="index">The index within <paramref name="bytes"/> to commence parsing from.</param>
+            <returns>The parsed <see cref="T:GitUIPluginInterfaces.ObjectId"/>.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.TryParseAsciiHexBytes(System.Byte[],System.Int32,GitUIPluginInterfaces.ObjectId@)">
+            <summary>
+            Parses an <see cref="T:GitUIPluginInterfaces.ObjectId"/> from ASCII <paramref name="bytes"/> at the given <paramref name="index"/>.
+            </summary>
+            <remarks>
+            <para>Unlike <see cref="M:GitUIPluginInterfaces.ObjectId.Parse(System.Byte[],System.Int32)"/> which reads raw bytes, this method reads human-readable
+            ASCII-encoded bytes, which are more verbose. Several git commands emit them in this form.</para>
+            <para>For parsing to succeed, there must be 40 bytes in <paramref name="bytes"/> starting at <paramref name="index"/>.</para>
+            </remarks>
+            <param name="bytes">The byte array to parse from.</param>
+            <param name="index">The index within <paramref name="bytes"/> to commence parsing from.</param>
+            <param name="objectId">The parsed <see cref="T:GitUIPluginInterfaces.ObjectId"/>.</param>
+            <returns><c>true</c> if parsing succeeded, otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.TryParseAsciiHexBytes(System.ArraySegment{System.Byte},GitUIPluginInterfaces.ObjectId@)">
+            <summary>
+            Parses an <see cref="T:GitUIPluginInterfaces.ObjectId"/> from a segment of <paramref name="bytes"/> containing ASCII characters.
+            </summary>
+            <remarks>
+            <para>Unlike <see cref="M:GitUIPluginInterfaces.ObjectId.Parse(System.Byte[],System.Int32)"/> which reads raw bytes, this method reads human-readable
+            ASCII-encoded bytes, which are more verbose. Several git commands emit them in this form.</para>
+            <para>For parsing to succeed, <paramref name="bytes"/> must contain 40 bytes.</para>
+            </remarks>
+            <param name="bytes">The byte array to parse from.</param>
+            <param name="objectId">The parsed <see cref="T:GitUIPluginInterfaces.ObjectId"/>.</param>
+            <returns><c>true</c> if parsing succeeded, otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.Parse(System.String,System.Text.RegularExpressions.Capture)">
+            <summary>
+            Parses an <see cref="T:GitUIPluginInterfaces.ObjectId"/> from a regex <see cref="T:System.Text.RegularExpressions.Capture"/> that was produced by matching against <paramref name="s"/>.
+            </summary>
+            <remarks>
+            <para>This method avoids the temporary string created by calling <see cref="P:System.Text.RegularExpressions.Capture.Value"/>.</para>
+            <para>For parsing to succeed, <paramref name="s"/> must be a valid 40-character SHA-1 string.</para>
+            </remarks>
+            <param name="s">The string that the regex <see cref="T:System.Text.RegularExpressions.Capture"/> was produced from.</param>
+            <param name="capture">The regex capture/group that describes the location of the SHA-1 hash within <paramref name="s"/>.</param>
+            <returns>The parsed <see cref="T:GitUIPluginInterfaces.ObjectId"/>.</returns>
+            <exception cref="T:System.FormatException"><paramref name="s"/> did not contain a valid 40-character SHA-1 hash.</exception>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.IsValid(System.String)">
+            <summary>
+            Identifies whether <paramref name="s"/> contains a valid 40-character SHA-1 hash.
+            </summary>
+            <param name="s">The string to validate.</param>
+            <returns><c>true</c> if <paramref name="s"/> is a valid SHA-1 hash, otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.IsValidPartial(System.String,System.Int32)">
+            <summary>
+            Identifies whether <paramref name="s"/> contains between <paramref name="minLength"/> and 40 valid SHA-1 hash characters.
+            </summary>
+            <param name="s">The string to validate.</param>
+            <returns><c>true</c> if <paramref name="s"/> is a valid partial SHA-1 hash, otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.ToString">
+            <summary>
+            Returns the SHA-1 hash.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.ToShortString(System.Int32)">
+            <summary>
+            Returns the first <paramref name="length"/> characters of the SHA-1 hash.
+            </summary>
+            <param name="length">The length of the returned string. Defaults to <c>10</c>.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="length"/> is less than zero, or more than 40.</exception>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.Equals(GitUIPluginInterfaces.ObjectId)">
+            <inheritdoc />
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.Equals(System.String)">
+            <summary>
+            Gets whether <paramref name="other"/> is equivalent to this <see cref="T:GitUIPluginInterfaces.ObjectId"/>.
+            </summary>
+            <remarks>
+            <para>This method does not allocate.</para>
+            <para><paramref name="other"/> must be lower case and not have any surrounding white space.</para>
+            </remarks>
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.Equals(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:GitUIPluginInterfaces.ObjectId.GetHashCode">
+            <inheritdoc />
+        </member>
+        <member name="T:GitUIPluginInterfaces.PluginsPathScanner">
+            <summary>
+            A helper class for scanning for plugin files.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.PluginsPathScanner.GetFiles(System.String[])">
+            <summary>
+            Searches for plugin files in the <paramref name="pluginsPaths"/>.
+            Returns dll files
+            - located in the folder for backward compatibility,
+            - located in the first level of sub directories for the new plugin structure.
+            </summary>
+            <example>
+            Plugins
+                \OldPlugin1.dll
+                \OldPlugin2.dll
+                \OldPlugin2.config
+                \NewPlugin1
+                    \Plugin1.dll
+                    \Plugin1.config
+                \NewPlugin2
+                    \Plugin2.dll
+                    \Plugin2.config
+            </example>
+            <param name="pluginsPaths">An array of filesystem paths to search for plugins in.</param>
+            <returns>An enumeration of found dll files.</returns>
+        </member>
+        <member name="P:GitUIPluginInterfaces.RepositoryHosts.IHostedRemote.Name">
+            <summary>
+            Gets the name of the remote in the local git repository. May be null.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.RepositoryHosts.IHostedRepository.GetBranches">
+            <summary>
+            Requests details of branches from the GitHub remote repository.
+            </summary>
+            <returns>A list of branches, ordered by name.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.RepositoryHosts.IHostedRepository.GetDefaultBranch">
+            <summary>
+            Returns the default branch of the repository.
+            </summary>
+            <returns>The default branch of the repository.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.RepositoryHosts.IHostedRepository.Fork">
+            <summary>
+            Forks the repo owned by somebody else to "my" repos.
+            </summary>
+            <returns>The new repo, owned by me.</returns>
+        </member>
+        <member name="M:GitUIPluginInterfaces.RepositoryHosts.IHostedRepository.CreatePullRequest(System.String,System.String,System.String,System.String)">
+            <returns>Pull request number</returns>
+        </member>
+        <member name="T:GitUIPluginInterfaces.PseudoSetting">
+            <summary>
+            Not a real setting (as it save no setting value). It is used to display a control that is not a setting (linklabel, text,...)
+            </summary>
+        </member>
+        <member name="F:GitUIPluginInterfaces.UserControls.CredentialsControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GitUIPluginInterfaces.UserControls.CredentialsControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GitUIPluginInterfaces.UserControls.CredentialsControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

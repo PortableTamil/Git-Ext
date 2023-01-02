@@ -1,0 +1,644 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GitExtUtils</name>
+    </assembly>
+    <members>
+        <member name="T:System.Diagnostics.CodeAnalysis.AllowNullAttribute">
+            <summary>Specifies that null is allowed as an input even if the corresponding type disallows it.</summary>
+        </member>
+        <member name="T:System.Diagnostics.CodeAnalysis.DisallowNullAttribute">
+            <summary>Specifies that null is disallowed as an input even if the corresponding type allows it.</summary>
+        </member>
+        <member name="T:System.Diagnostics.CodeAnalysis.MaybeNullAttribute">
+            <summary>Specifies that an output may be null even if the corresponding type disallows it.</summary>
+        </member>
+        <member name="T:System.Diagnostics.CodeAnalysis.NotNullAttribute">
+            <summary>Specifies that an output will not be null even if the corresponding type allows it.</summary>
+        </member>
+        <member name="T:System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute">
+            <summary>Specifies that when a method returns <see cref="P:System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute.ReturnValue"/>, the parameter may be null even if the corresponding type disallows it.</summary>
+        </member>
+        <member name="M:System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute.#ctor(System.Boolean)">
+            <summary>Initializes the attribute with the specified return value condition.</summary>
+            <param name="returnValue">
+            The return value condition. If the method returns this value, the associated parameter may be null.
+            </param>
+        </member>
+        <member name="P:System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute.ReturnValue">
+            <summary>Gets the return value condition.</summary>
+        </member>
+        <member name="T:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute">
+            <summary>Specifies that when a method returns <see cref="P:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute.ReturnValue"/>, the parameter will not be null even if the corresponding type allows it.</summary>
+        </member>
+        <member name="M:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute.#ctor(System.Boolean)">
+            <summary>Initializes the attribute with the specified return value condition.</summary>
+            <param name="returnValue">
+            The return value condition. If the method returns this value, the associated parameter will not be null.
+            </param>
+        </member>
+        <member name="P:System.Diagnostics.CodeAnalysis.NotNullWhenAttribute.ReturnValue">
+            <summary>Gets the return value condition.</summary>
+        </member>
+        <member name="T:System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute">
+            <summary>Specifies that the output will be non-null if the named parameter is non-null.</summary>
+        </member>
+        <member name="M:System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute.#ctor(System.String)">
+            <summary>Initializes the attribute with the associated parameter name.</summary>
+            <param name="parameterName">
+            The associated parameter name.  The output will be non-null if the argument to the parameter specified is non-null.
+            </param>
+        </member>
+        <member name="P:System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute.ParameterName">
+            <summary>Gets the associated parameter name.</summary>
+        </member>
+        <member name="T:System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute">
+            <summary>Applied to a method that will never return under any circumstance.</summary>
+        </member>
+        <member name="T:System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute">
+            <summary>Specifies that the method will not return if the associated Boolean parameter is passed the specified value.</summary>
+        </member>
+        <member name="M:System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute.#ctor(System.Boolean)">
+            <summary>Initializes the attribute with the specified parameter value.</summary>
+            <param name="parameterValue">
+            The condition parameter value. Code after the method will be considered unreachable by diagnostics if the argument to
+            the associated parameter matches this value.
+            </param>
+        </member>
+        <member name="P:System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute.ParameterValue">
+            <summary>Gets the condition parameter value.</summary>
+        </member>
+        <member name="M:System.Linq.LinqExtensions.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,``1,System.Int32})">
+            <summary>
+            Sorts the elements of a sequence in ascending order by using a specified <paramref name="comparer"/>.
+            </summary>
+            <typeparam name="TSource">The type of the elements of source.</typeparam>
+            <typeparam name="TKey">The type of the key returned by keySelector.</typeparam>
+            <param name="source">A sequence of values to order.</param>
+            <param name="keySelector">A function to extract a key from an element.</param>
+            <param name="comparer">A function to compare keys.</param>
+            <returns>An <see cref="T:System.Linq.IOrderedEnumerable`1"/> whose elements are sorted according to a key.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="source"/> or <paramref name="keySelector"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:System.Linq.LinqExtensions.Transform``1(``0[],System.Func{``0,``0})">
+            <summary>
+            Transforms each element of an array into a new form.
+            </summary>
+            <typeparam name="TSource">The type of the elements of source.</typeparam>
+            <param name="source">A sequence of values to invoke a transform function on.</param>
+            <param name="transformer">A transform function to apply to each element.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="source"/> or <paramref name="transformer"/> is <c>null</c>.</exception>
+        </member>
+        <member name="T:GitExtUtils.ArgumentBuilder">
+             <summary>
+             Builds a command line argument string from zero or more arguments.
+             </summary>
+             <remarks>
+             <para>To retrieve the constructed argument list string, call <see cref="M:GitExtUtils.ArgumentBuilder.ToString"/>.</para>
+            
+             <para>Arguments are separated by a single space character.</para>
+            
+             <para>Adding <c>null</c> or white-space strings has no effect on the output, which can be
+             useful in some calling constructions.</para>
+            
+             <para>This class has been designed to work with C# collection initialiser syntax which makes
+             its use quite ergonomic. See the example for more information.</para>
+            
+             <para>The type accepts strings, however conversion from other types is achieved via extension
+             methods by adding a method named <c>Add</c> that accepts the required type.</para>
+             </remarks>
+             <example>
+             <code>
+             var args = new ArgumentBuilder
+             {
+                 "commit",                   // adds the string unconditionally
+                 { isAmend, "--amend" },     // adds the option only if isAmend == true
+                 { isUp, "--up", "--down" }, // selects the option based on the value of isUp
+             };
+             </code>
+             </example>
+        </member>
+        <member name="M:GitExtUtils.ArgumentBuilder.Add(System.String)">
+            <summary>
+            Adds <paramref name="s"/> to the argument list.
+            </summary>
+            <remarks>
+            If <paramref name="s"/> is <c>null</c> or white-space, then no change is made
+            to the argument list.
+            </remarks>
+            <param name="s">The string to add.</param>
+        </member>
+        <member name="M:GitExtUtils.ArgumentBuilder.AddRange(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Adds a range of arguments.
+            </summary>
+            <param name="args">The arguments to add to this builder.</param>
+        </member>
+        <member name="M:GitExtUtils.ArgumentBuilder.ToString">
+            <summary>
+            Returns the composed argument list as a string.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.ArgumentBuilder.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            This method is only implemented to support collection initialiser syntax, and always
+            throws if called.
+            </summary>
+            <exception cref="T:System.InvalidOperationException">Always thrown.</exception>
+        </member>
+        <member name="T:GitExtUtils.GitArgumentBuilder">
+             <summary>
+             Builds a git command line string from config items, a command name and that command's arguments.
+             </summary>
+             <remarks>
+             <para>Derives from <see cref="T:GitExtUtils.ArgumentBuilder"/>, so read that class's documentation to learn more about
+             its usage.</para>
+            
+             <para>
+             A git command line is built from:
+             <list type="number">
+               <item>Zero or more config items, each of form <c>-c key=value</c></item>
+               <item>A command name, such as <c>log</c></item>
+               <item>Zero or more arguments specific to that command</item>
+             </list>
+             </para>
+            
+             <para>Git Extensions defines a set of config items per command in the <see cref="T:GitCommands.GitCommandConfiguration"/> class.</para>
+             </remarks>
+             <example>
+             <code>
+             var args = new GitArgumentBuilder("commit")
+             {
+                 "-S",                       // added unconditionally
+                 { isAmend, "--amend" },     // adds the option only if isAmend == true
+                 { isUp, "--up", "--down" }, // selects the option based on the value of isUp
+             };
+             </code>
+             </example>
+        </member>
+        <member name="M:GitExtUtils.GitArgumentBuilder.#ctor(System.String,GitCommands.GitCommandConfiguration,GitCommands.ArgumentString)">
+            <summary>
+            Initialises a new <see cref="T:GitExtUtils.GitArgumentBuilder"/> for the given <paramref name="command"/>.
+            </summary>
+            <param name="command">The git command this builder is compiling arguments for.</param>
+            <param name="commandConfiguration">Optional source for default command configuration items. Pass <c>null</c> to use the Git Extensions defaults.</param>
+            <param name="gitOptions">Optional arguments that are for the git command.  EX: git --no-optional-locks status.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="command"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="command"/> is an invalid string.</exception>
+        </member>
+        <member name="M:GitExtUtils.GitArgumentBuilder.Add(GitCommands.GitConfigItem)">
+            <summary>
+            Add <paramref name="configItem"/> to this builder.
+            </summary>
+            <remarks>
+            Any prior config item with the same key will be replaced.
+            </remarks>
+            <param name="configItem">The config item to add to the builder.</param>
+        </member>
+        <member name="M:GitExtUtils.GitArgumentBuilder.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:GitExtUtils.GitUI.DpiUtil">
+            <summary>
+            Utility class related to DPI settings, primarily used for scaling dimensions on high-DPI displays.
+            </summary>
+        </member>
+        <member name="P:GitExtUtils.GitUI.DpiUtil.IsNonStandard">
+            <summary>
+            Gets whether the current pixel density is not 96 DPI.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.DpiUtil.Scale(System.Drawing.Size)">
+            <summary>
+            Returns a scaled copy of <paramref name="size"/> which takes equivalent
+            screen space at the current DPI as the original would at 96 DPI.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.DpiUtil.Scale(System.Drawing.Size,System.Int32)">
+            <summary>
+            Returns a scaled copy of <paramref name="size"/> which takes equivalent
+            screen space at the current DPI as the original would at <paramref name="originalDpi"/>.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.DpiUtil.Scale(System.Drawing.Size@)">
+            <summary>
+            Modifies <paramref name="size"/> in place so that it takes equivalent screen
+            space at the current DPI as the original value would at 96 DPI.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.DpiUtil.Scale(System.Int32)">
+            <summary>
+            Returns a scaled copy of measurement <paramref name="i"/> which has
+            equivalent length on screen at the current DPI at the original would
+            at 96 DPI.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.DpiUtil.Scale(System.Int32,System.Int32)">
+            <summary>
+            Returns a scaled copy of <paramref name="i"/> which has equivalent
+            length on screen at the current DPI as the original would at
+            <paramref name="originalDpi"/>.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.DpiUtil.Scale(System.Single)">
+            <summary>
+            Returns a scaled copy of measurement <paramref name="i"/> which has
+            equivalent length on screen at the current DPI at the original would
+            at 96 DPI.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.DpiUtil.Scale(System.Single,System.Int32)">
+            <summary>
+            Returns a scaled copy of <paramref name="f"/> which has equivalent
+            length on screen at the current DPI as the original would at
+            <paramref name="originalDpi"/>.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.DpiUtil.Scale(System.Drawing.Point)">
+            <summary>
+            Modifies <paramref name="point"/> in place so that it has equivalent physical
+            screen position at the current DPI as the original value would at 96 DPI.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.DpiUtil.Scale(System.Drawing.Point,System.Int32)">
+            <summary>
+            Modifies <paramref name="point"/> in place so that it has equivalent physical
+            screen position at the current DPI as the original value would at <paramref name="originalDpi"/>.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.DpiUtil.Scale(System.Windows.Forms.Padding)">
+            <summary>
+            Returns a scaled copy of <paramref name="padding"/> which takes equivalent
+            screen space at the current DPI as the original would at 96 DPI.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.DpiUtil.DeviceContextSafeHandle.#ctor">
+            <summary>
+            Called by P/Invoke.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.HighDpiMouseCursors.Enable">
+            <summary>
+            Replaces some .NET Framework 96-dpi .cur file mouse cursors with system cursors.
+            </summary>
+        </member>
+        <member name="T:GitExtUtils.GitUI.Theming.AppColor">
+            <summary>
+            GitExtensions' application specific color names.
+            </summary>
+            <remarks>
+            Values are stored in AppSettings class. Whenever new name is added here, add default value
+            to <see cref="T:GitExtUtils.GitUI.Theming.AppColorDefaults"/> and \GitUI\Themes\invariant.css.
+            </remarks>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.ColorHelper.GetHighlightGrayTextColor(System.Drawing.KnownColor,System.Drawing.KnownColor,System.Drawing.KnownColor,System.Single)">
+            <summary>
+            Get a color to be used instead of SystemColors.GrayText
+            when background is SystemColors.Highlight or SystemColors.MenuHighlight.
+            </summary>
+            <remarks>
+            Consider a transformation of color range [SystemColors.ControlText, SystemColors.Control] to
+            [SystemColors.HighlightText, SystemColors.Highlight].
+            What result would such transformation produce given SystemColors.GrayText as input?
+            First we calculate transformed GrayText color relative to InvariantTheme.
+            Then we apply transformation from InvariantTheme to current theme by calling AdaptTextColor.
+            </remarks>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.ColorHelper.GetGrayTextColor(System.Drawing.KnownColor,System.Single)">
+            <summary>
+            Get a color to be used instead of SystemColors.GrayText which is more ore less gray than
+            the usual SystemColors.GrayText.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.ColorHelper.Transform(System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Roughly speaking makes a linear transformation of input orig 0 &lt; orig &lt; 1
+            The transformation is specified by how it affected a pair of values
+            (exampleOrig, oppositeOrig) to (example, opposite).
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.ColorHelper.MakeBackgroundDarkerBy(System.Drawing.KnownColor,System.Double)">
+            <remarks>0.05 is subtle. 0.3 is quite strong.</remarks>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.HslColor.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Creates a new HslColor value.
+            </summary>
+            <param name="hue">Hue, as a value between 0 and 1.</param>
+            <param name="saturation">Saturation, as a value between 0 and 1.</param>
+            <param name="luminance">Luminance, as a value between 0 and 1.</param>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.HslColor.#ctor(System.Drawing.Color@)">
+            <summary>
+            Creates an <see cref="T:GitExtUtils.GitUI.Theming.HslColor"/> from an RGB <see cref="T:System.Drawing.Color"/> object.
+            </summary>
+            <param name="c">A Color to convert.</param>
+            <returns>An HSL value.</returns>
+        </member>
+        <member name="P:GitExtUtils.GitUI.Theming.HslColor.H">
+            <summary>
+            Hue as a value between 0 and 1.
+            </summary>
+        </member>
+        <member name="P:GitExtUtils.GitUI.Theming.HslColor.S">
+            <summary>
+            Saturation as a value between 0 and 1.
+            </summary>
+        </member>
+        <member name="P:GitExtUtils.GitUI.Theming.HslColor.L">
+            <summary>
+            Luminosity (brightness) as a value between 0 and 1.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.HslColor.ToColor">
+            <summary>
+            Converts this HSL color object to a <see cref="T:System.Drawing.Color"/> object based on RGB values.
+            </summary>
+        </member>
+        <member name="T:GitExtUtils.GitUI.Theming.Theme">
+            <summary>
+            A set of values for .Net system colors and GitExtensions app-specific colors.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.Theme.GetColor(GitExtUtils.GitUI.Theming.AppColor)">
+            <summary>
+            Get GitExtensions app-specific color value as defined by this instance. If not defined,
+            returns <see cref="F:System.Drawing.Color.Empty"/>.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.Theme.GetSysColor(System.Drawing.KnownColor)">
+            <summary>
+            Get .Net system color value as defined by this instance.
+            </summary>
+        </member>
+        <member name="P:GitExtUtils.GitUI.Theming.Theme.AppColorNames">
+            <summary>
+            GitExtension app-specific color identifiers.
+            </summary>
+        </member>
+        <member name="P:GitExtUtils.GitUI.Theming.Theme.SysColorNames">
+            <summary>
+            .Net system color identifiers.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.Theme.GetColor(System.Drawing.KnownColor)">
+            <summary>
+            Get .Net system color value as defined by this instance. If not defined, returns
+            <see cref="F:System.Drawing.Color.Empty"/>.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.Theme.GetNonEmptyColor(System.Drawing.KnownColor)">
+            <summary>
+            Get .Net system color value as defined by this instance. If not defined, returns
+            actual .Net <see cref="T:System.Drawing.SystemColors"/> color.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.Theme.GetFixedColor(System.Drawing.KnownColor)">
+             <summary>
+             Get .Net system color value as defined by system.
+             The value is converted to fixed RGB as opposed to <see cref="T:System.Drawing.SystemColors"/> color
+             which takes value from theme colors table which may change.
+            
+             This method is needed because we trick .Net to assume modified <see cref="T:System.Drawing.SystemColors"/>
+             values to apply custom color scheme to GitExtensions, but still need access to values as
+             before our modifications.
+            
+             This method should only be called before our modifications to .Net system colors.
+             </summary>
+        </member>
+        <member name="M:GitExtUtils.GitUI.Theming.Theme.IsSystemColor(System.Drawing.KnownColor)">
+            <summary>
+            Whether <see cref="T:System.Drawing.KnownColor"/> represents Windows theme - defined color,
+            produces same result as <see cref="P:System.Drawing.Color.IsSystemColor"/> without the need to
+            create <see cref="T:System.Drawing.Color"/> instance.
+            </summary>
+        </member>
+        <member name="T:GitExtUtils.MruCache`2">
+            <summary>
+            Associative cache with fixed capacity that expires the last used item first.
+            </summary>
+            <typeparam name="TKey">Type of keys in the cache.</typeparam>
+            <typeparam name="TValue">Type of values in the cache.</typeparam>
+        </member>
+        <member name="P:GitExtUtils.MruCache`2.Capacity">
+            <summary>
+            Gets the maximum number of entries that this cache will hold.
+            When full, attempts to add new entries will expire the last used entry.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.MruCache`2.#ctor(System.Int32)">
+            <summary>
+            Initialises a new instance of <see cref="T:GitExtUtils.MruCache`2"/>.
+            </summary>
+            <param name="capacity">The maximum number of entries the cache will hold.</param>
+        </member>
+        <member name="M:GitExtUtils.MruCache`2.Add(`0,`1)">
+            <summary>
+            Adds an entry to the cache.
+            </summary>
+            <remarks>
+            If an entry already exists with this key, it will be replaced.
+            </remarks>
+            <param name="key">The key that uniquely identifies this entry in the cache.</param>
+            <param name="value">The value to store against the provided key.</param>
+        </member>
+        <member name="M:GitExtUtils.MruCache`2.Clear">
+            <summary>
+            Clears all items from the cache.
+            </summary>
+        </member>
+        <member name="M:GitExtUtils.MruCache`2.TryGetValue(`0,`1@)">
+            <summary>
+            Finds a cache entry, if it exists.
+            </summary>
+            <param name="key">The key that uniquely identifies the cache entry.</param>
+            <param name="value">The cached value if found, otherwise <c>default</c>.</param>
+            <returns><c>true</c> if <paramref name="key"/> exists in the cache, otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:GitExtUtils.MruCache`2.TryRemove(`0,`1@)">
+            <summary>
+            Removes an entry from the cache, if it exists.
+            </summary>
+            <param name="key">The key that uniquely identifies the cache entry.</param>
+            <param name="value">The removed value if found, otherwise <c>default</c>.</param>
+            <returns><c>true</c> if <paramref name="key"/> was removed from the cache, otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:GitCommands.BinarySearch.Find(System.Int32,System.Int32,System.Func{System.Int32,System.Boolean})">
+            <summary>
+            Find first integer between min and (min + count - 1) where "predicate" returns true.
+            </summary>
+            <remarks>
+            Assumes "predicate" is a non-decreasing function, i.e.
+            if predicate(i) == true then predicate(i + n) == true for any positive n.
+            </remarks>
+        </member>
+        <member name="P:GitCommands.GitCommandConfiguration.Default">
+            <summary>
+            Gets the default configuration for git commands used by Git Extensions.
+            </summary>
+        </member>
+        <member name="M:GitCommands.GitCommandConfiguration.Add(GitCommands.GitConfigItem,System.String[])">
+            <summary>
+            Registers <paramref name="configItem"/> against one or more command names.
+            </summary>
+            <param name="configItem">The config item to register.</param>
+            <param name="commands">One or more command names to register this config item against.</param>
+        </member>
+        <member name="M:GitCommands.GitCommandConfiguration.Get(System.String)">
+            <summary>
+            Retrieves the set of default config items for the given <paramref name="command"/>.
+            </summary>
+            <param name="command">The command to retrieve default config items for.</param>
+            <returns>The default config items for <paramref name="command"/>.</returns>
+        </member>
+        <member name="T:GitCommands.GitConfigItem">
+            <summary>
+            A configuration key/value pair for use in git command lines.
+            </summary>
+        </member>
+        <member name="M:GitUI.FileUtility.SafeWriteAllText(System.String,System.String,System.Text.Encoding)">
+            <summary>
+            Writes all text to a file. Works around issues with hidden files encountered by File.WriteAllText.
+            </summary>
+            <param name="fileName">Destination file.</param>
+            <param name="contents">Text to write as file contents.</param>
+        </member>
+        <member name="T:GitUI.CancellationTokenSequence">
+            <summary>
+            Supports sequences of actions where the commencement of an action cancels any
+            prior action.
+            </summary>
+            <remarks>
+            This sequence does not guarantee that prior operations stop executing before
+            <see cref="M:GitUI.CancellationTokenSequence.Next"/> returns. It only guarantees that their <see cref="T:System.Threading.CancellationToken"/>
+            will be cancelled. Operations need to use their tokens in an appropriate manner.
+            You may still require additional concurrency protections.
+            </remarks>
+            <example>
+            Define an instance of this type, usually as a private readonly field:
+            <code>
+            private readonly CancellableSequence _sequence = new();
+            </code>
+            Then use it to generate <see cref="T:System.Threading.CancellationToken"/> objects for use in asynchronous
+            operations.
+            <code>
+            var token = _sequence.Next();
+            // Do asynchronous operation using this token.
+            // Subsequent calls to Next will cancel this token.
+            </code>
+            </example>
+        </member>
+        <member name="F:GitUI.CancellationTokenSequence._cancellationTokenSource">
+            <remarks>
+            If this field is <c>null</c>, the object has been disposed.
+            </remarks>
+        </member>
+        <member name="M:GitUI.CancellationTokenSequence.Next">
+             <summary>
+             Issues the <see cref="T:System.Threading.CancellationToken"/> for use by the next asynchronous operation in the sequence,
+             and cancels any prior token.
+             </summary>
+             <remarks>
+             <para>This method does not guarantee that prior operations stop executing before
+             it returns. It only guarantees that their <see cref="T:System.Threading.CancellationToken"/>
+             will be cancelled. Operations need to use their tokens in an appropriate manner.
+             You may still require additional concurrency protections.</para>
+            
+             <para>This method is thread-safe.</para>
+             </remarks>
+             <returns>A <see cref="T:System.Threading.CancellationToken"/> to be used by the commencing asynchronous operation.</returns>
+             <exception cref="T:System.OperationCanceledException">This object is disposed.</exception>
+        </member>
+        <member name="M:GitUI.CancellationTokenSequence.CancelCurrent">
+            <summary>
+            Cancels any current asynchronous operation.
+            </summary>
+            <remarks>
+            It is safe to call this method multiple times, regardless of whether a
+            new token has been issued or not.
+            </remarks>
+            <exception cref="T:System.ObjectDisposedException">This object is disposed.</exception>
+        </member>
+        <member name="M:GitUI.CancellationTokenSequence.Dispose">
+            <summary>
+            Cancels the current token and disposes this object.
+            </summary>
+            <remarks>
+            Only the first call to this method per instance of this class has any effect.
+            </remarks>
+        </member>
+        <member name="M:GitUI.ControlHotkeyExtensions.EnableRemoveWordHotkey(System.Windows.Forms.Control)">
+            <summary>
+            Properly handle Ctrl + Backspace by removing the last word before the cursor.
+            </summary>
+            <remarks>
+            By default .NET TextBox inserts a strange special character instead.
+            </remarks>
+        </member>
+        <member name="M:GitUI.ControlUtil.FindDescendants(System.Windows.Forms.Control,System.Func{System.Windows.Forms.Control,System.Boolean})">
+            <summary>
+            Enumerates all descendant controls.
+            </summary>
+        </member>
+        <member name="M:GitUI.ControlUtil.FindDescendantsOfType``1(System.Windows.Forms.Control,System.Func{System.Windows.Forms.Control,System.Boolean})">
+            <summary>
+            Enumerates all descendant controls of type <typeparamref name="T"/> in breadth-first order.
+            </summary>
+        </member>
+        <member name="M:GitUI.ControlUtil.FindDescendantOfType``1(System.Windows.Forms.Control,System.Func{``0,System.Boolean},System.Func{System.Windows.Forms.Control,System.Boolean})">
+            <summary>
+            Finds the first descendent of <paramref name="control"/> that has type
+            <typeparamref name="T"/> and satisfies <paramref name="predicate"/>.
+            </summary>
+        </member>
+        <member name="M:GitUI.ControlUtil.FindAncestors(System.Windows.Forms.Control)">
+            <summary>
+            Enumerates all ancestor controls.
+            </summary>
+            <remarks>
+            The returned sequence does not include <paramref name="control"/>.
+            </remarks>
+        </member>
+        <member name="M:GitUI.ControlUtil.SetStyle(System.Windows.Forms.Control,System.Windows.Forms.ControlStyles,System.Boolean)">
+            <summary>
+            Calls protected method <see cref="M:System.Windows.Forms.Control.SetStyle(System.Windows.Forms.ControlStyles,System.Boolean)"/>.
+            </summary>
+        </member>
+        <member name="P:GitUI.IToolStripEx.DrawBorder">
+            <summary>
+            Gets or sets whether the toolstrip control has a border drawn around it.
+            </summary>
+        </member>
+        <member name="M:GitUI.ListViewExtensions.LastSelectedItem(System.Windows.Forms.ListView)">
+            <summary>
+            <para>For practical purposes: The last <see cref="T:System.Windows.Forms.ListViewItem"/> added to selection.</para>
+            <para>Actually: Focused item if selected, otherwise last item in <see cref="M:GitUI.ListViewExtensions.SelectedItems(System.Windows.Forms.ListView)"/> list.</para>
+            </summary>
+        </member>
+        <member name="M:GitUI.ListViewExtensions.BoundsOrEmpty(System.Windows.Forms.ListViewItem)">
+            <summary>
+            A workaround for <see cref="P:System.Windows.Forms.ListViewItem.Bounds"/> which throws <see cref="T:System.ArgumentException"/>
+            on item from a collapsed <see cref="T:System.Windows.Forms.ListViewGroup"/>.
+            </summary>
+        </member>
+        <member name="M:GitUI.TableLayoutPanelExtensions.AdjustWidthToSize(System.Windows.Forms.TableLayoutPanel,System.Int32,System.Windows.Forms.Control[])">
+            <summary>
+            Adjusts the width of the required column to the largest value from the supplied set.
+            </summary>
+            <param name="table">The table to adjust.</param>
+            <param name="columnIndex">The index of the column to resize.</param>
+            <param name="controls">A set of controls to choose the widest from.</param>
+        </member>
+        <member name="M:GitUI.Win32ApiUtil.ToPoint(System.IntPtr)">
+            <summary>
+            Convert <see cref="P:System.Windows.Forms.Message.LParam"/> to <see cref="T:System.Drawing.Point"/>.
+            </summary>
+        </member>
+        <member name="M:GitExtensions.Strings.IsNullOrEmpty(System.String)">
+            <inheritdoc cref="M:System.String.IsNullOrEmpty(System.String)"/>
+        </member>
+        <member name="M:GitExtensions.Strings.IsNullOrWhiteSpace(System.String)">
+            <inheritdoc cref="M:System.String.IsNullOrWhiteSpace(System.String)"/>
+        </member>
+    </members>
+</doc>
