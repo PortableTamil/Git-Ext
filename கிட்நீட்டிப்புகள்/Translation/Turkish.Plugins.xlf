@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><xliff GitExVersion="" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" ?><xliff xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" GitExVersion="">
   <file datatype="plaintext" original="AppVeyorSettingsUserControl" source-language="en" target-language="tr">
     <body>
       <trans-unit id="cbLoadTestResults.Text">
@@ -10,7 +10,7 @@
   </file>
   <file datatype="plaintext" original="AutoCompileSubModulesPlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Auto compile SubModules</source>
         <target>Alt modüllerin otomatik olarak derlenmesi</target>
         
@@ -48,7 +48,7 @@
   </file>
   <file datatype="plaintext" original="BackgroundFetchPlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Periodic background fetch</source>
         <target>Periyodik arka plan getirmesi</target>
         
@@ -97,14 +97,14 @@
         <target>Bitbucket Kullanıcı adı</target>
         
       </trans-unit>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Bitbucket Server</source>
         <target>Bitbucket Sunucusu</target>
         
       </trans-unit>
       <trans-unit id="_yourRepositoryIsNotInBitbucket.Text">
         <source>Your repository is not hosted in BitBucket Server.</source>
-        <target>Deponuz, BitBucket Sunucusunda barındırılmıyor.</target>
+        <target>Depon, BitBucket Sunucusunda barındırılmıyor.</target>
         
       </trans-unit>
     </body>
@@ -270,7 +270,7 @@
       </trans-unit>
       <trans-unit id="tabView.Text">
         <source>View Pull Requests</source>
-        <target>Çekme İsteklerini Görüntüleme</target>
+        <target>Çekme İsteklerini Görüntüle</target>
         
       </trans-unit>
     </body>
@@ -296,7 +296,7 @@
   </file>
   <file datatype="plaintext" original="CreateLocalBranchesPlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Create local tracking branches</source>
         <target>Yerel izleme dalları oluştur</target>
         
@@ -307,7 +307,7 @@
     <body>
       <trans-unit id="$this.Text">
         <source>Delete obsolete branches</source>
-        <target>Eski dalları silme</target>
+        <target>Eski dalları sil</target>
         
       </trans-unit>
       <trans-unit id="Author.HeaderText">
@@ -342,7 +342,7 @@
       </trans-unit>
       <trans-unit id="_areYouSureToDelete.Text">
         <source>Are you sure to delete {0} selected branches?</source>
-        <target>Seçili {0} dalı silmek istediğinize emin misiniz?</target>
+        <target>Seçili {0} dalı silmek istediğine emin misin?</target>
         
       </trans-unit>
       <trans-unit id="_branchesSelected.Text">
@@ -381,7 +381,7 @@ Devam etmek istediğine emin misin?</target>
       </trans-unit>
       <trans-unit id="_deletingUnmergedBranches.Text">
         <source>Deleting unmerged branches will result in dangling commits. Use with caution!</source>
-        <target>Birleştirilmemiş dalların silinmesi, teslimlerin sarkmasına neden olur. Dikkatli kullanın!</target>
+        <target>Birleştirilmemiş dalların silinmesi, teslimlerin sarkmasına neden olur. Dikkatli kullan!</target>
         
       </trans-unit>
       <trans-unit id="_loading.Text">
@@ -458,7 +458,7 @@ Devam etmek istediğine emin misin?</target>
   </file>
   <file datatype="plaintext" original="DeleteUnusedBranchesPlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Delete obsolete branches</source>
         <target>Eski dalları sil</target>
         
@@ -495,7 +495,7 @@ Devam etmek istediğine emin misin?</target>
       </trans-unit>
       <trans-unit id="_regexInvertedFlag.Caption">
         <source>Search branches that does not match regex</source>
-        <target> Regex (düzenli ifadesi) ile eşleşmeyen dalları ara</target>
+        <target>Regex (düzenli ifadesi) ile eşleşmeyen dalları ara</target>
         
       </trans-unit>
       <trans-unit id="_remoteName.Caption">
@@ -534,7 +534,7 @@ Devam etmek istediğine emin misin?</target>
       </trans-unit>
       <trans-unit id="_areYouSureToDelete.Text">
         <source>Are you sure to delete the selected files?</source>
-        <target>Seçili dosyaları silmek istediğinize emin misiniz?</target>
+        <target>Seçili dosyaları silmek istediğine emin misin?</target>
         
       </trans-unit>
       <trans-unit id="_deleteCaption.Text">
@@ -554,7 +554,7 @@ Devam etmek istediğine emin misin?</target>
       </trans-unit>
       <trans-unit id="label1.Text">
         <source>Reset local changes before deleting files. Choose files to delete. Force push for replacing data on remote repository.</source>
-        <target>Dosyaları silmeden önce yerel değişiklikleri sıfırlayın. Silmek istediğiniz dosyaları seçin. Uzak depodaki verileri değiştirmek için zorla itin.</target>
+        <target>Dosyaları silmeden önce yerel değişiklikleri sıfırla. Silmek istediğin dosyaları seç. Uzak depodaki verileri değiştirmek için zorla it.</target>
         
       </trans-unit>
       <trans-unit id="lastCommitDateDataGridViewTextBoxColumn.HeaderText">
@@ -581,7 +581,7 @@ Devam etmek istediğine emin misin?</target>
   </file>
   <file datatype="plaintext" original="FindLargeFilesPlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Find large files</source>
         <target>Büyük dosyaları bul</target>
         
@@ -730,7 +730,7 @@ Devam etmek istediğine emin misin?</target>
       </trans-unit>
       <trans-unit id="labelPublishType.Text">
         <source>Publish Type:</source>
-        <target>Yayın Türü: </target>
+        <target>Yayın Türü:</target>
         
       </trans-unit>
       <trans-unit id="labelRemote.Text">
@@ -1030,7 +1030,7 @@ Bir depo için Gerrit desteğini etkinleştirmek için bir .gitreview dosyası o
   </file>
   <file datatype="plaintext" original="GerritPlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Gerrit Code Review</source>
         <target>Gerrit Kod İncelemesi</target>
         
@@ -1062,7 +1062,7 @@ Bir depo için Gerrit desteğini etkinleştirmek için bir .gitreview dosyası o
       </trans-unit>
       <trans-unit id="_installCommitMsgHookMessage.Text">
         <source>Gerrit requires a commit-msg hook to be installed. Do you want to install the commit-msg hook into your repository?</source>
-        <target>Gerrit'i kullanmak için commit-msg kancasına (hook) ihtiyacınız var. Commit-msg kancasını (hook), deponuza yüklemek istiyor musunuz?</target>
+        <target>Gerrit'i kullanmak için commit-msg kancasına (hook) ihtiyacın var. Commit-msg kancasını (hook), depona yüklemek istiyor musun?</target>
         
       </trans-unit>
       <trans-unit id="_installCommitMsgHookShortText.Text">
@@ -1223,7 +1223,7 @@ Bir depo için Gerrit desteğini etkinleştirmek için bir .gitreview dosyası o
         <target>ref/...</target>
         
       </trans-unit>
-      <trans-unit id="lblPrefixName.Text">
+      <trans-unit id="lblPrefixDescription.Text">
         <source>[prefix]/</source>
         <target>[önek]/</target>
         
@@ -1242,7 +1242,7 @@ Bir depo için Gerrit desteğini etkinleştirmek için bir .gitreview dosyası o
   </file>
   <file datatype="plaintext" original="GitFlowPlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>GitFlow</source>
         <target>GitFlow (GitAkışı)</target>
         
@@ -1251,7 +1251,7 @@ Bir depo için Gerrit desteğini etkinleştirmek için bir .gitreview dosyası o
   </file>
   <file datatype="plaintext" original="GitHub3Plugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>GitHub</source>
         <target>GitHub</target>
         
@@ -1268,7 +1268,7 @@ Bir depo için Gerrit desteğini etkinleştirmek için bir .gitreview dosyası o
       </trans-unit>
       <trans-unit id="_tokenAlreadyExist.Text">
         <source>You already have an OAuth token. To get a new one, delete your old one in Plugins &gt; Settings first.</source>
-        <target>Zaten bir tane OAuth jetonunuz (token) var. Yeni bir jeton (token) almak için ilk önce Eklentiler &gt; Eklenti Ayarlar'ı içerisinden eski jetonu (token) silin.</target>
+        <target>Zaten bir tane OAuth jetonun var. Yeni bir jeton (token) almak için ilk önce Eklentiler &gt; Eklenti Ayarlar'ı içerisinden eski jetonu sil.</target>
         
       </trans-unit>
       <trans-unit id="_viewInWebSite.Text">
@@ -1280,7 +1280,7 @@ Bir depo için Gerrit desteğini etkinleştirmek için bir .gitreview dosyası o
   </file>
   <file datatype="plaintext" original="GitImpactPlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Impact Graph</source>
         <target>Katkı Grafiği</target>
         
@@ -1289,7 +1289,7 @@ Bir depo için Gerrit desteğini etkinleştirmek için bir .gitreview dosyası o
   </file>
   <file datatype="plaintext" original="GitStatisticsPlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Statistics</source>
         <target>İstatistikler</target>
         
@@ -1313,7 +1313,7 @@ Bir depo için Gerrit desteğini etkinleştirmek için bir .gitreview dosyası o
   </file>
   <file datatype="plaintext" original="GourcePlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Gource</source>
         <target>Gource</target>
         
@@ -1336,7 +1336,7 @@ Lütfen Gource'u indirin ve eklenti ayarları iletişim kutusundaki yolu ayarlay
 Gource can be only be started from a valid git repository.</source>
         <target>Geçerli dizin geçerli bir git deposu değil.
 
-Gource yalnızca geçerli bir git deposundan başlatılabilir. </target>
+Gource yalnızca geçerli bir git deposundan başlatılabilir.</target>
         
       </trans-unit>
       <trans-unit id="_doYouWantDownloadGource.Text">
@@ -1461,7 +1461,7 @@ Yapılandırılmış yolu sıfırlamak istiyor musun?</target>
   </file>
   <file datatype="plaintext" original="JiraCommitHintPlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Jira Commit Hint</source>
         <target>Jira Teslim İpucu</target>
         
@@ -1570,7 +1570,7 @@ Yapılandırılmış yolu sıfırlamak istiyor musun?</target>
         <target>Yapılandırılmış bir vekiili (proxy'si) yok. Lütfen, eklenti ayarlarında vekil (proxy) ana bilgisayarını ayarlayın.</target>
         
       </trans-unit>
-      <trans-unit id="_pluginDescription.Text">
+      <trans-unit id="_pluginName.Text">
         <source>Proxy Switcher</source>
         <target>Vekil (Proxy) Değiştiricisi</target>
         
@@ -1579,7 +1579,7 @@ Yapılandırılmış yolu sıfırlamak istiyor musun?</target>
   </file>
   <file datatype="plaintext" original="ProxySwitcherPlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Proxy Switcher</source>
         <target>Vekil (Proxy) Değiştiricisi</target>
         
@@ -1736,7 +1736,7 @@ teslim ifadeleri olabilir)</target>
   </file>
   <file datatype="plaintext" original="ReleaseNotesGeneratorPlugin" source-language="en" target-language="tr">
     <body>
-      <trans-unit id="Description.Text">
+      <trans-unit id="Name.Text">
         <source>Release Notes Generator</source>
         <target>Sürüm Notları Oluşturucu</target>
         
@@ -1801,8 +1801,8 @@ Lütfen URL'nin geçerli olduğundan ve API jetonuna (token) derleme ve proje bi
  - 'Build (read)'
  - 'Project and team (read)'</source>
         <target>Aşağıdaki kapsamlara sahip bir jeton (token) oluşturmanız gerekiyor:
- - 'Build (read)' Derle (oku)
- - 'Project and team (read)' Proje ve takım (oku)</target>
+- 'Build (read)' Derle (oku)
+- 'Project and team (read)' Proje ve takım (oku)</target>
         
       </trans-unit>
       <trans-unit id="labelRegexError.Text">
@@ -1849,7 +1849,7 @@ Lütfen, sunucu URL'sini doğrulayın.</target>
       </trans-unit>
       <trans-unit id="labelRegexError.Text">
         <source>The &quot;Build Id Filter&quot; regular expression is not valid and won't be saved!</source>
-        <target>&quot;Derleme Kimliği Filtresi (Build Id Filter)&quot; normal ifadesi geçerli değil ve kaydedilmeyecek!</target>
+        <target>&quot;Derleme Kimliği Filtresi (Build Id Filter)&quot; düzenli(kurallı) ifadesi geçerli değil ve kaydedilmeyecek!</target>
         
       </trans-unit>
       <trans-unit id="lnkExtractDataFromBuildUrlCopiedInTheClipboard.Text">

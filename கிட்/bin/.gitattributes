@@ -1,3 +1,0 @@
-xul.dll filter=lfs diff=lfs merge=lfs -text
-*xul.dll filter=lfs diff=lfs merge=lfs -text
-*ul.dll filter=lfs diff=lfs merge=lfs -text
