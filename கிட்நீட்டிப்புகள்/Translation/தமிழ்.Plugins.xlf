@@ -364,69 +364,69 @@
         <source>DANGEROUS ACTION!
 Branches will be deleted on the remote '{0}'. This can not be undone.
 Are you sure you want to continue?</source>
-        <target>ОПАСНОЕ ДЕЙСТВИЕ!
-Ветки будут удалены из внешнего репозитория '{0}'. Это действие не может быть отменено.
-Вы уверены, что хотите продолжить?</target>
+        <target>ஆபத்தான செயல்!
+தொலைநிலை களஞ்சியமான '{0}' இலிருந்து கிளைகள் அகற்றப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.
+நீங்கள் நிச்சயமாக தொடர விரும்புகிறீர்களா?</target>
         
       </trans-unit>
       <trans-unit id="_deleteCaption.Text">
         <source>Delete</source>
-        <target>Удалить</target>
+        <target>நீக்கு</target>
         
       </trans-unit>
       <trans-unit id="_deletingBranches.Text">
         <source>Deleting branches...</source>
-        <target>Удаление веток...</target>
+        <target>கிளைகளை நீக்குகிறது...</target>
         
       </trans-unit>
       <trans-unit id="_deletingUnmergedBranches.Text">
         <source>Deleting unmerged branches will result in dangling commits. Use with caution!</source>
-        <target>Удаление не слитых веток привет к висячим коммитам. Используйте с осторожностью!</target>
+        <target>இணைக்கப்படாத கிளைகளை நீக்குவது தொங்கும் கமிட்களுக்கு வழிவகுக்கும். எச்சரிக்கையுடன் பயன்படுத்தவும்!</target>
         
       </trans-unit>
       <trans-unit id="_loading.Text">
         <source>Loading...</source>
-        <target>Загрузка...</target>
+        <target>ஏற்றுகிறது...</target>
         
       </trans-unit>
       <trans-unit id="_pressToSearch.Text">
         <source>Press '{0}' to search for branches to delete.</source>
-        <target>Нажмите '{0}' чтобы найти ветки для удаления.</target>
+        <target>நீக்குவதற்கான கிளைகளைக் கண்டறிய '{0}' ஐ அழுத்தவும்.</target>
         
       </trans-unit>
       <trans-unit id="_searchBranches.Text">
         <source>Search branches</source>
-        <target>Выбрать ветки</target>
+        <target>கிளைகளைத் தேடு</target>
         
       </trans-unit>
       <trans-unit id="_selectBranchesToDelete.Text">
         <source>Select branches to delete using checkboxes in '{0}' column.</source>
-        <target>Установить флажок в столбце '{0}' чтобы удалить ветку.</target>
+        <target>'{0}' நெடுவரிசையில் உள்ள தேர்வுப்பெட்டிகளைப் பயன்படுத்தி நீக்க கிளைகளைத் தேர்ந்தெடுக்கவும்.</target>
         
       </trans-unit>
       <trans-unit id="buttonSettings.Text">
         <source>Settings</source>
-        <target>Настройки</target>
+        <target>அமைப்புகள்</target>
         
       </trans-unit>
       <trans-unit id="dateDataGridViewTextBoxColumn.HeaderText">
         <source>Last activity</source>
-        <target>Последняя активность</target>
+        <target>கடைசி செயல்பாடு</target>
         
       </trans-unit>
       <trans-unit id="includeUnmergedBranches.Text">
         <source>Include unmerged branches</source>
-        <target>Включить неслитые ветки</target>
+        <target>இணைக்கப்படாத கிளைகளைச் சேர்க்கவும்</target>
         
       </trans-unit>
       <trans-unit id="label1.Text">
         <source>Delete branches older than x days</source>
-        <target>Удалить ветки старше чем x дней</target>
+        <target>நீக்கு ветки старше чем x дней</target>
         
       </trans-unit>
       <trans-unit id="label2.Text">
         <source>Delete branches fully merged into branch</source>
-        <target>Удалить ветки полностью слитые в ветку</target>
+        <target>நீக்கு ветки полностью слитые в ветку</target>
         
       </trans-unit>
       <trans-unit id="nameDataGridViewTextBoxColumn.HeaderText">
@@ -460,22 +460,22 @@ Are you sure you want to continue?</source>
     <body>
       <trans-unit id="Name.Text">
         <source>Delete obsolete branches</source>
-        <target>Удалить устаревшие ветки</target>
+        <target>நீக்கு устаревшие ветки</target>
         
       </trans-unit>
       <trans-unit id="_daysOlderThan.Caption">
         <source>Delete obsolete branches older than (days)</source>
-        <target>Удалить устаревшие ветки старше чем (дней)</target>
+        <target>நீக்கு устаревшие ветки старше чем (дней)</target>
         
       </trans-unit>
       <trans-unit id="_deleteRemoteBranchesFromFlag.Caption">
         <source>Delete obsolete branches from remote</source>
-        <target>Удалить устаревшие ветки с удалённого репозитория</target>
+        <target>நீக்கு устаревшие ветки с удалённого репозитория</target>
         
       </trans-unit>
       <trans-unit id="_includeUnmergedBranchesFlag.Caption">
         <source>Delete unmerged branches</source>
-        <target>Удалить неслитые ветки</target>
+        <target>நீக்கு неслитые ветки</target>
         
       </trans-unit>
       <trans-unit id="_mergedInBranch.Caption">
@@ -500,7 +500,7 @@ Are you sure you want to continue?</source>
       </trans-unit>
       <trans-unit id="_remoteName.Caption">
         <source>Remote name obsoleted branches should be deleted from</source>
-        <target>Удалить устаревшие ветки внешнего репозитория из</target>
+        <target>நீக்கு устаревшие ветки внешнего репозитория из</target>
         
       </trans-unit>
       <trans-unit id="_useRegexToFilterBranchesFlag.Caption">
@@ -529,17 +529,17 @@ Are you sure you want to continue?</source>
       </trans-unit>
       <trans-unit id="Delete.Text">
         <source>Delete</source>
-        <target>Удалить</target>
+        <target>நீக்கு</target>
         
       </trans-unit>
       <trans-unit id="_areYouSureToDelete.Text">
         <source>Are you sure to delete the selected files?</source>
-        <target>Вы уверены, что хотите удалить выбранные файлы?</target>
+        <target>Вы уверены, что хотите நீக்கு выбранные файлы?</target>
         
       </trans-unit>
       <trans-unit id="_deleteCaption.Text">
         <source>Delete</source>
-        <target>Удалить</target>
+        <target>நீக்கு</target>
         
       </trans-unit>
       <trans-unit id="commitCountDataGridViewTextBoxColumn.HeaderText">
@@ -549,7 +549,7 @@ Are you sure you want to continue?</source>
       </trans-unit>
       <trans-unit id="dataGridViewCheckBoxColumn1.HeaderText">
         <source>Delete</source>
-        <target>Удалить</target>
+        <target>நீக்கு</target>
         
       </trans-unit>
       <trans-unit id="label1.Text">
@@ -837,27 +837,27 @@ defaultrebase=0</target>
       </trans-unit>
       <trans-unit id="CommitStatistics.Text">
         <source>Loading..</source>
-        <target>Загрузка..</target>
+        <target>ஏற்றுகிறது..</target>
         
       </trans-unit>
       <trans-unit id="LinesOfCodePerLanguageText.Text">
         <source>Loading...</source>
-        <target>Загрузка...</target>
+        <target>ஏற்றுகிறது...</target>
         
       </trans-unit>
       <trans-unit id="LinesOfCodePerTypeText.Text">
         <source>Loading...</source>
-        <target>Загрузка...</target>
+        <target>ஏற்றுகிறது...</target>
         
       </trans-unit>
       <trans-unit id="LoadingLabel.Text">
         <source>Loading...</source>
-        <target>Загрузка...</target>
+        <target>ஏற்றுகிறது...</target>
         
       </trans-unit>
       <trans-unit id="TestCodeText.Text">
         <source>Loading...</source>
-        <target>Загрузка...</target>
+        <target>ஏற்றுகிறது...</target>
         
       </trans-unit>
       <trans-unit id="TotalCommits.Text">
@@ -1091,7 +1091,7 @@ To enable Gerrit support for a repository, a .gitreview file must be created. Th
       </trans-unit>
       <trans-unit id="_settingsErrorDefaultRemoteNotPresent.Text">
         <source>The remote &quot;{0}&quot; specified with the &quot;defaultremote&quot; setting in the .gitreview file does not refer to a configured remote. Either create this remote or change the setting in the .gitreview file.</source>
-        <target>Внешний репозиторий &quot;{0}&quot; указанный с &quot;defaultremote&quot; в настройках файла .gitreview не относится к настроенными внешним репозиториям. Либо создайте это внешнее репозиторий или измените настройки в файле .gitreview.</target>
+        <target>Внешний репозиторий &quot;{0}&quot; указанный с &quot;defaultremote&quot; в настройках файла .gitreview не относится к настроенными внешним репозиториям. Либо создайте это внешнее репозиторий или измените அமைப்புகள் в файле .gitreview.</target>
         
       </trans-unit>
       <trans-unit id="_settingsErrorFileNotFound.Text">
@@ -1130,7 +1130,7 @@ To enable Gerrit support for a repository, a .gitreview file must be created. Th
       </trans-unit>
       <trans-unit id="_loading.Text">
         <source>Loading...</source>
-        <target>Загрузка...</target>
+        <target>ஏற்றுகிறது...</target>
         
       </trans-unit>
       <trans-unit id="_noBranchExist.Text">
@@ -1268,7 +1268,7 @@ To enable Gerrit support for a repository, a .gitreview file must be created. Th
       </trans-unit>
       <trans-unit id="_tokenAlreadyExist.Text">
         <source>You already have an OAuth token. To get a new one, delete your old one in Plugins &gt; Settings first.</source>
-        <target>У вас уже есть личный токен доступа. Чтобы получить новый, удалите старый в Плагины &gt; Настройки.</target>
+        <target>У вас уже есть личный токен доступа. Чтобы получить новый, удалите старый в Плагины &gt; அமைப்புகள்.</target>
         
       </trans-unit>
       <trans-unit id="_viewInWebSite.Text">
@@ -1843,7 +1843,7 @@ Please copy in the clipboard the url of the build before retrying.
       <trans-unit id="_failToLoadProjectMessage.Text">
         <source>Failed to load the projects and build list.
 Please verify the server url.</source>
-        <target>Неудачная загрузка проектов и списка сборки.
+        <target>Неудачная ஏற்றுகிறது проектов и списка сборки.
 Пожалуйста проверьте url сервера.</target>
         
       </trans-unit>
