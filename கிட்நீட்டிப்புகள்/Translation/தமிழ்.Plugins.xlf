@@ -1,9 +1,9 @@
 <?xml version="1.0" ?><xliff xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" GitExVersion="">
-  <file datatype="plaintext" original="AppVeyorSettingsUserControl" source-language="en" target-language="ru">
+  <file datatype="plaintext" original="AppVeyorSettingsUserControl" source-language="en" target-language="ta">
     <body>
       <trans-unit id="cbLoadTestResults.Text">
         <source>Display test results in build status summary for each build result (network intensive!)</source>
-        <target>Отображать результаты теста в сводке состояния сборки для каждого результата сборки (интенсивная работа в сети!)</target>
+        <target>ஒவ்வொரு உருவாக்க முடிவுக்கான உருவாக்க நிலை சுருக்கத்தில் சோதனை முடிவுகளைக் காண்பி (நெட்வொர்க் தீவிரமானது!)</target>
         
       </trans-unit>
     </body>
@@ -12,36 +12,36 @@
     <body>
       <trans-unit id="Name.Text">
         <source>Auto compile SubModules</source>
-        <target>Автоматическая сборка субмодулей</target>
+        <target>துணைதொகுதிகள் தானாக தொகுத்தல்</target>
         
       </trans-unit>
       <trans-unit id="_doYouWantBuild.Text">
         <source>Do you want to build {0}?
 
 {1}</source>
-        <target>Вы хотите собрать {0}?
+        <target>நீங்கள் {0} ஐ உருவாக்க விரும்புகிறீர்களா?
 
 {1}</target>
         
       </trans-unit>
       <trans-unit id="_enterCorrectMsBuildPath.Text">
         <source>Please enter correct MSBuild path in the plugin settings dialog and try again.</source>
-        <target>Пожалуйста, введите правильный путь к MSBuild в настройках плагина и попробуйте снова.</target>
+        <target>சொருகி அமைப்புகள் உரையாடலில் சரியான MSBuild பாதையை உள்ளிட்டு மீண்டும் முயற்சிக்கவும்.</target>
         
       </trans-unit>
       <trans-unit id="_msBuildArguments.Caption">
         <source>msbuild.exe arguments</source>
-        <target>Аргументы msbuild.exe</target>
+        <target>msbuild.exe வாதங்கள்</target>
         
       </trans-unit>
       <trans-unit id="_msBuildEnabled.Caption">
         <source>Enabled</source>
-        <target>Включить</target>
+        <target>இயக்கப்பட்டது</target>
         
       </trans-unit>
       <trans-unit id="_msBuildPath.Caption">
         <source>Path to msbuild.exe</source>
-        <target>Путь к msbuild.exe</target>
+        <target>msbuild.exe பாதை</target>
         
       </trans-unit>
     </body>
@@ -50,27 +50,27 @@
     <body>
       <trans-unit id="Name.Text">
         <source>Periodic background fetch</source>
-        <target>Периодически забирать в фоне</target>
+        <target>அவ்வப்போது பின்னணி பெறுதல்</target>
         
       </trans-unit>
       <trans-unit id="_autoRefresh.Caption">
         <source>Refresh view after fetch</source>
-        <target>Обновить окно после получения</target>
+        <target>பெற்ற பிறகு பார்வையைப் புதுப்பிக்கவும்</target>
         
       </trans-unit>
       <trans-unit id="_fetchAllSubmodules.Caption">
         <source>Fetch all submodules</source>
-        <target>Забрать все субмодули</target>
+        <target>அனைத்து துணை தொகுதிகளையும் பெறவும்</target>
         
       </trans-unit>
       <trans-unit id="_fetchInterval.Caption">
         <source>Fetch every (seconds) - set to 0 to disable</source>
-        <target>Забирать каждые N (секунд) - установите в 0 чтобы отключить</target>
+        <target>ஒவ்வொரு அ(வினாடிகளிலும்) பெறவும் - முடக்க 0 என அமைக்கவும்</target>
         
       </trans-unit>
       <trans-unit id="_gitCommand.Caption">
         <source>Arguments of git command to run</source>
-        <target>Аргументы команды git для запуска</target>
+        <target>இயக்க கிட் கட்டளையின் வாதங்கள்</target>
         
       </trans-unit>
     </body>
@@ -79,32 +79,32 @@
     <body>
       <trans-unit id="BitbucketBaseUrl.Caption">
         <source>Specify the base URL to Bitbucket</source>
-        <target>Укажите основной URL к Bitbucket</target>
+        <target>பிட்பக்கெட்டுக்கு அடிப்படை URL ஐக் குறிப்பிடவும்</target>
         
       </trans-unit>
       <trans-unit id="BitbucketDisableSsl.Caption">
         <source>Disable SSL verification</source>
-        <target>Отключить верификацию SSL</target>
+        <target>SSL சரிபார்ப்பை முடக்கு</target>
         
       </trans-unit>
       <trans-unit id="BitbucketPassword.Caption">
         <source>Bitbucket Password</source>
-        <target>Bitbucket пароль</target>
+        <target>பிட்பக்கெட்டு கடவுச்சொல்</target>
         
       </trans-unit>
       <trans-unit id="BitbucketUsername.Caption">
         <source>Bitbucket Username</source>
-        <target>Bitbucket имя пользователя</target>
+        <target>பிட்பக்கெட்டு பயனர்பெயர்</target>
         
       </trans-unit>
       <trans-unit id="Name.Text">
         <source>Bitbucket Server</source>
-        <target>Сервер Bitbucket</target>
+        <target>பிட்பக்கெட்டு சேவையகம்</target>
         
       </trans-unit>
       <trans-unit id="_yourRepositoryIsNotInBitbucket.Text">
         <source>Your repository is not hosted in BitBucket Server.</source>
-        <target>Ваш репозиторий не находится на сервере Bitbucket.</target>
+        <target>உங்கள் களஞ்சியம் பிட்பக்கெட் சேவையகத்தில் இல்லை.</target>
         
       </trans-unit>
     </body>
@@ -113,44 +113,44 @@
     <body>
       <trans-unit id="$this.Text">
         <source>Bitbucket Server</source>
-        <target>Сервер Bitbucket</target>
+        <target>பிட்பக்கெட்டு சேவையகம்</target>
         
       </trans-unit>
       <trans-unit id="_committed.Text">
         <source>{0} committed
 {1}</source>
-        <target>{0} автор коммита
+        <target>{0} உறுதிசெய்யப்பட்டது
 {1}</target>
         
       </trans-unit>
       <trans-unit id="_error.Text">
         <source>Error</source>
-        <target>Ошибка</target>
+        <target>பிழை</target>
         
       </trans-unit>
       <trans-unit id="_linkLabelToolTip.Text">
         <source>Right-click to copy link</source>
-        <target>Правый клик для копирования ссылки</target>
+        <target>இணைப்பை நகலெடுக்க வலது சொடுக்கவும்</target>
         
       </trans-unit>
       <trans-unit id="_success.Text">
         <source>Success</source>
-        <target>Завершено успешно</target>
+        <target>வெற்றி</target>
         
       </trans-unit>
       <trans-unit id="btnApprove.Text">
         <source>Approve</source>
-        <target>Подтвержден</target>
+        <target>அனுமதி</target>
         
       </trans-unit>
       <trans-unit id="btnCreate.Text">
         <source>Create</source>
-        <target>Создать</target>
+        <target>உருவாக்கு</target>
         
       </trans-unit>
       <trans-unit id="btnMerge.Text">
         <source>Merge</source>
-        <target>Слияние</target>
+        <target>இணைத்தல்</target>
         
       </trans-unit>
       <trans-unit id="groupBoxCreatePullRequest.Text">

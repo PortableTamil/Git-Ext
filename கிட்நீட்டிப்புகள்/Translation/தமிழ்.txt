@@ -1,0 +1,1724 @@
+
+         <இலக்கு>இணைத்தல்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="groupBoxCreatePullRequest.Text">
+         <source>கோரிக்கை தகவலை இழுக்கவும்</source>
+         <target>கோரிக்கை தகவலை இழுக்கவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="groupBoxInformation.Text">
+         <source>தகவல்</source>
+         <இலக்கு>தகவல்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="groupBoxPullRequestInfo.Text">
+         <source>கோரிக்கை தகவலை இழுக்கவும்</source>
+         <target>கோரிக்கை தகவலை இழுக்கவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="groupBoxSource.Text">
+         <source>ஆதாரம்</source>
+         <இலக்கு>மூலம்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="groupBoxSourceRepoView.Text">
+         <source>ஆதாரம்</source>
+         <இலக்கு>மூலம்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="groupBoxTarget.Text">
+         <source>இலக்கு</source>
+         <இலக்கு>இலக்கு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="groupBoxTargetRepoView.Text">
+         <source>இலக்கு</source>
+         <இலக்கு>இலக்கு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblAuthor.Text">
+         <source>ஆசிரியர்</source>
+         <இலக்கு>ஆசிரியர்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblBranchView.Text">
+         <source>கிளை</source>
+         <இலக்கு> கிளை</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblDescription.Text">
+         <source>விளக்கம்</source>
+         <இலக்கு>விளக்கம்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblDescriptionView.Text">
+         <source>விளக்கம்</source>
+         <இலக்கு>விளக்கம்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblRepositoryView.Text">
+         <source> களஞ்சியம்</source>
+         <இலக்கு> களஞ்சியம்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblReviewerView.Text">
+         <source>விமர்சகர் (அங்கீகரிக்கப்பட்டவர்)</source>
+         <இலக்கு>விமர்சகர் (உறுதிப்படுத்தப்பட்டது)</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblSourceBranch.Text">
+         <source>கிளை</source>
+         <இலக்கு> கிளை</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblSourceRepoView.Text">
+         <source> களஞ்சியம்</source>
+         <இலக்கு> களஞ்சியம்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblSourceRepository.Text">
+         <source> களஞ்சியம்</source>
+         <இலக்கு> களஞ்சியம்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblState.Text">
+         <source>மாநிலம்</source>
+         <இலக்கு>நிலை</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblTargetBranch.Text">
+         <source>கிளை</source>
+         <இலக்கு> கிளை</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblTargetRepoView.Text">
+         <source>கிளை</source>
+         <இலக்கு> கிளை</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblTargetRepository.Text">
+         <source> களஞ்சியம்</source>
+         <இலக்கு> களஞ்சியம்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblTitle.Text">
+         <source>தலைப்பு</source>
+         <இலக்கு>தலைப்பு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblTitleView.Text">
+         <source>தலைப்பு</source>
+         <இலக்கு>தலைப்பு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="tabCreate.Text">
+         <source>புல் கோரிக்கையை உருவாக்கு</source>
+         <இலக்கு>இழுக்கும் கோரிக்கையை உருவாக்கு</target>
+        
+       </trans-unit>
+       <trans-unit id="tabView.Text">
+         <source>இழுக்கும் கோரிக்கைகளைக் காண்க</source>
+         <இலக்கு>இழுக்கும் கோரிக்கைகளைப் பார்க்கவும்</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="CreateLocalBranchesForm" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>உள்ளூர் கண்காணிப்பு கிளைகளை உருவாக்கவும்</source>
+         <இலக்கு>உள்ளூர் கண்காணிப்பு கிளைகளை உருவாக்கவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="button1.Text">
+         <source>உள்ளூர் கண்காணிப்பு கிளைகளை உருவாக்கவும்</source>
+         <இலக்கு>உள்ளூர் கண்காணிப்பு கிளைகளை உருவாக்கவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="label1.Text">
+         <source>இதற்கான கண்காணிப்பு கிளைகளை உருவாக்க ரிமோட்</source>
+         <target>ஒரு கண்காணிப்பு கிளையை உருவாக்குவதற்கான வெளிப்புற களஞ்சியம்</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="CreateLocalBranchesPlugin" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="Name.Text">
+         <source>உள்ளூர் தடத்தை உருவாக்கவும்
+		 ராஜா கிளைகள்</source>
+         <இலக்கு>உள்ளூரில் கண்காணிக்கப்பட்ட கிளைகளை உருவாக்கவும்</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="DeleteUnusedBranchesForm" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>காலாவதியான கிளைகளை நீக்கு</source>
+         <இலக்கு>காலாவதியான கிளைகளை அகற்று</target>
+        
+       </trans-unit>
+       <trans-unit id="Author.HeaderText">
+         <source>கடைசி ஆசிரியர்</source>
+         <target>கடைசி ஆசிரியர்</target>
+        
+       </trans-unit>
+       <trans-unit id="Cancel.Text">
+         <source>மூடு</source>
+         <இலக்கு>மூடு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="Delete.Text">
+         <source>நீக்கு</source>
+         <இலக்கு>அகற்று</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="IncludeRemoteBranches.Text">
+         <source>இதிலிருந்து தொலைநிலை கிளைகளை நீக்கவும்</source>
+         <target>இலிருந்து வெளிப்புற கிளைகளை அகற்று</target>
+        
+       </trans-unit>
+       <trans-unit id="Message.HeaderText">
+         <source>கடைசி செய்தி</source>
+         <target>கடைசி இடுகை</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="RefreshBtn.Text">
+         <source>கிளைகளைத் தேடுங்கள்</source>
+         <இலக்கு>கிளைகளைத் தேர்ந்தெடு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_areYouSureToDelete.Text">
+         <source>தேர்ந்தெடுக்கப்பட்ட {0} கிளைகளை நிச்சயமாக நீக்குவீர்களா?</source>
+         <target>தேர்ந்தெடுக்கப்பட்ட {0} கிளைகளை நிச்சயமாக நீக்க விரும்புகிறீர்களா?</target>
+        
+       </trans-unit>
+       <trans-unit id="_branchesSelected.Text">
+         <source>{0}/{1} கிளைகள் தேர்ந்தெடுக்கப்பட்டன.</source>
+         <target>{0}/{1} கிளைகள் தேர்ந்தெடுக்கப்பட்டன.</target>
+        
+       </trans-unit>
+       <trans-unit id="_cancel.Text">
+         <source>ரத்துசெய்</source>
+         <இலக்கு>ரத்து</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_chooseBranchesToDelete.Text">
+         <source>நீக்க கிளைகளைத் தேர்ந்தெடுக்கவும். '{0}' இல் முழுமையாக இணைக்கப்பட்ட கிளைகள் மட்டுமே நீக்கப்படும்.</source>
+         <இலக்கு>நீங்கள் நீக்க விரும்பும் கிளைகளைத் தேர்ந்தெடுக்கவும். '{0}' இல் முழுமையாக இணைக்கப்பட்ட கிளைகள் மட்டுமே அகற்றப்படும். </இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_dangerousAction.Text">
+         <source>ஆபத்தான செயல்!
+'{0}' ரிமோட்டில் கிளைகள் நீக்கப்படும். இதை செயல்தவிர்க்க முடியாது.
+நீங்கள் நிச்சயமாக தொடர விரும்புகிறீர்களா?</source>
+         <இலக்கு>ஆபத்தான செயல்!
+வெளிப்புற களஞ்சியமான '{0}' இலிருந்து கிளைகள் அகற்றப்படும். இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.
+நீங்கள் நிச்சயமாக தொடர விரும்புகிறீர்களா?</target>
+        
+       </trans-unit>
+       <trans-unit id="_deleteCaption.Text">
+         <source>நீக்கு</source>
+         <இலக்கு>அகற்று</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_deletingBranches.Text">
+         <source>கிளைகளை நீக்குகிறது...</source>
+         <target>கிளைகளை நீக்குகிறது...</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_deletingUnmergedBranches.Text">
+         <source>இணைக்கப்படாத கிளைகளை நீக்குவது தொங்கும் கமிட்களுக்கு வழிவகுக்கும். எச்சரிக்கையுடன் பயன்படுத்தவும்!</source>
+         <இலக்கு>இணைக்கப்படாத கிளைகளை அகற்று தொங்கும் கமிட்களுக்கு ஹலோ. கவனமாகப் பயன்படுத்தவும்!</target>
+        
+       </trans-unit>
+       <trans-unit id="_loading.Text">
+         <source>ஏற்றப்படுகிறது...</source>
+         <இலக்கு>ஏற்றுகிறது...</இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_pressToSearch.Text">
+         <source>நீக்க கிளைகளைத் தேட '{0}' ஐ அழுத்தவும்.</source>
+         <target>நீக்குவதற்கான கிளைகளைக் கண்டறிய '{0}' ஐ அழுத்தவும்.</target>
+        
+       </trans-unit>
+       <trans-unit id="_searchBranches.Text">
+         <source>கிளைகளைத் தேடுங்கள்</source>
+         <இலக்கு>கிளைகளைத் தேர்ந்தெடு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_selectBranchesToDelete.Text">
+         <source>'{0}' நெடுவரிசையில் உள்ள தேர்வுப்பெட்டிகளைப் பயன்படுத்தி நீக்க கிளைகளைத் தேர்ந்தெடுக்கவும்.</source>
+         <target>கிளையை நீக்க '{0}' நெடுவரிசையில் தேர்வுப்பெட்டியை அமைக்கவும்.</target>
+        
+       </trans-unit>
+       <trans-unit id="buttonSettings.Text">
+         <source>அமைப்புகள்</source>
+         <இலக்கு>அமைப்புகள்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="dateDataGridViewTextBoxColumn.HeaderText">
+         <source>கடைசி செயல்பாடு</source>
+         <target>கடைசி செயல்பாடு</target>
+        
+       </trans-unit>
+       <trans-unit id="includeUnmergedBranches.Text">
+         <source>இணைக்கப்படாத கிளைகளைச் சேர்க்கவும்</source>
+         <இலக்கு>இணைக்கப்படாத கிளைகளைச் சேர்க்கவும்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="label1.Text">
+         <source>x நாட்களை விட பழைய கிளைகளை நீக்கவும்</source>
+         <target>x நாட்களை விட பழைய கிளைகளை நீக்கவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="label2.Text">
+         <source>கிளைகளில் முழுமையாக இணைக்கப்பட்ட கிளைகளை நீக்கவும்</source>
+         <target>ஒரு கிளையில் முழுமையாக இணைக்கப்பட்ட கிளைகளை நீக்கவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="nameDataGridViewTextBoxColumn.HeaderText">
+         <source>பெயர்</source>
+         <இலக்கு>பெயர்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="regexDoesNotMatch.Text">
+         <source>செய்கிறது
+		 பொருந்தவில்லை</source>
+         <target>பொருந்தவில்லை</target>
+        
+       </trans-unit>
+       <trans-unit id="regexFilter.Text">
+         <source>/(அம்சம்|மேம்படுத்து)/</source>
+         <இலக்கு>/(அம்சம்|மேம்படுத்து)/</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="useRegexCaseInsensitive.Text">
+         <source>Case insensitive</source>
+         <target>Case insensitive</target>
+        
+       </trans-unit>
+       <trans-unit id="useRegexFilter.Text">
+         <source>கிளைகளை வடிகட்ட ரெஜெக்ஸைப் பயன்படுத்தவும்</source>
+         <இலக்கு>கிளைகளை வடிகட்ட ரெஜெக்ஸைப் பயன்படுத்தவும்</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="DeleteUnusedBranchesPlugin" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="Name.Text">
+         <source>காலாவதியான கிளைகளை நீக்கு</source>
+         <இலக்கு>காலாவதியான கிளைகளை அகற்று</target>
+        
+       </trans-unit>
+       <trans-unit id="_daysOlderThan.Caption">
+         <source>(நாட்கள்) விட பழைய கிளைகளை நீக்கவும்</source>
+         <target>(நாட்கள்) விட பழைய கிளைகளை அகற்றவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="_deleteRemoteBranchesFromFlag.Caption">
+         <source>தொலைநிலையிலிருந்து வழக்கற்றுப் போன கிளைகளை நீக்கவும்</source>
+         <target>தொலைநிலைக் களஞ்சியத்திலிருந்து வழக்கற்றுப் போன கிளைகளை அகற்று</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_includeUnmergedBranchesFlag.Caption">
+         <source>இணைக்கப்படாத கிளைகளை நீக்கு</source>
+         <இலக்கு>இணைக்கப்படாத கிளைகளை அகற்று</target>
+        
+       </trans-unit>
+       <trans-unit id="_mergedInBranch.Caption">
+         <source>அனைத்து கிளைகளும் இணைக்கப்பட வேண்டிய கிளை</source>
+         <target>அனைத்து கிளைகளும் இணைக்கப்பட வேண்டிய கிளை</target>
+        
+       </trans-unit>
+       <trans-unit id="_regexCaseInsensitiveFlag.Caption">
+         <source>regex வடிகட்டி கேஸ் உணர்வற்றதா?</source>
+         <target>ரீஜெக்ஸ் வடிகட்டலுக்கான வழக்கை புறக்கணிக்கவா?</target>
+        
+       </trans-unit>
+       <trans-unit id="_regexFilter.Caption">
+         <source>நீக்க கிளைகளை வடிகட்டுவதற்கு Regex</source>
+         <target>நீக்கத்திற்கான கிளைகளை வடிகட்டுவதற்கான வழக்கமான வெளிப்பாடு</target>
+        
+       </trans-unit>
+       <trans-unit id="_regexInvertedFlag.Caption">
+         <source>regex உடன் பொருந்தாத கிளைகளைத் தேடுங்கள்</source>
+         <target>வழக்கமான வெளிப்பாட்டுடன் பொருந்தாத கிளைகளைத் தேடுங்கள்</target>
+        
+       </trans-unit>
+       <trans-unit id="_remoteName.Caption">
+         <source>தொலை பெயர் வழக்கொழிந்த கிளைகள் இதிலிருந்து நீக்கப்பட வேண்டும்</source>
+         <target>இலிருந்து பழைய வெளிப்புற களஞ்சியக் கிளைகளை அகற்றவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="_useRegexToFilterBranchesFlag.Caption">
+         <source>நீக்க கிளைகளை வடிகட்ட regex ஐப் பயன்படுத்தவும்</source>
+         <இலக்கு>நீக்குவதற்கு கிளைகளை வடிகட்ட வழக்கமான வெளிப்பாட்டைப் பயன்படுத்தவும்</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="FindLargeFilesForm" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>பெரிய கோப்புகளைக் கண்டறிக</source>
+         <target>பெரிய கோப்புகளைக் கண்டறிக</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="Cancel.Text">
+         <source>மூடு</source>
+         <இலக்கு>மூடு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="CompressedSize.HeaderText">
+         <source>சுருக்கப்பட்ட அளவு</source>
+         <இலக்கு>சுருக்கப்பட்ட அளவு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="Delete.Text">
+         <source>நீக்கு</source>
+         <இலக்கு>அகற்று</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_areYouSureToDelete.Text">
+         <source>தேர்ந்தெடுத்த கோப்புகளை நிச்சயமாக நீக்குகிறீர்களா?</source>
+         <target>தேர்ந்தெடுக்கப்பட்ட கோப்புகளை நிச்சயமாக நீக்க விரும்புகிறீர்களா?</target>
+        
+       </trans-unit>
+       <trans-unit id="_deleteCaption.Text">
+         <source>நீக்கு</source>
+         <இலக்கு>அகற்று</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="commitCountDataGridViewTextBoxColumn.HeaderText">
+         <source>கமிட் எண்ணிக்கை</source>
+         <target>கமிட்களின் எண்ணிக்கை</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="dataGridViewCheckBoxColumn1.HeaderText">
+         <source>நீக்கு</source>
+         <இலக்கு>அகற்று</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="label1.Text">
+         <source>கோப்புகளை நீக்கும் முன் உள்ளூர் மாற்றங்களை மீட்டமைக்கவும். நீக்க கோப்புகளைத் தேர்ந்தெடுக்கவும். ரிமோட் ரிபோசிட்டரியில் தரவை மாற்றுவதற்கான அழுத்தத்தை அழுத்தவும்.</source>
+         <target>நீக்குவதற்கு முன் உள்ளூர் மாற்றங்களை மீட்டமைக்கவும். நீக்க வேண்டிய கோப்புகளைத் தேர்ந்தெடுக்கவும். வெளிப்புறக் களஞ்சியத்தில் உள்ள தரவை மாற்றும்படி கட்டாயப்படுத்தவும்.</target>
+        
+       </trans-unit>
+       <trans-unit id="lastCommitDateDataGridViewTextBoxColumn.HeaderText">
+         <source>கடைசி உறுதி தேதி</source>
+         <target>கடைசி உறுதி தேதி</target>
+        
+       </trans-unit>
+       <trans-unit id="pathDataGridViewTextBoxColumn.HeaderText">
+         <source>பாதை</source>
+         <இலக்கு>பாதை</ இலக்கு>
+		 </trans-unit>
+       <trans-unit id="sHADataGridViewTextBoxColumn.HeaderText">
+         <source>SHA</source>
+         <இலக்கு>SHA</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="sizeDataGridViewTextBoxColumn.HeaderText">
+         <source>அளவு</source>
+         <இலக்கு>ரஸ்மெர்</ இலக்கு>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="FindLargeFilesPlugin" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="Name.Text">
+         <source>பெரிய கோப்புகளைக் கண்டறிக</source>
+         <இலக்கு>நைட்டி ஃபோல்ஷிப் படம்</இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_sizeLargeFile.Caption">
+         <source>(Mb) ஐ விட பெரிய கோப்புகளைக் கண்டறிக</source>
+         <இலக்கு>நைட்டி ஃபோல்ஷிப் ஃபில்ஸ் பொல்ஷே செம் (எம்பி)</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="FormGerritChangeSubmitted" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>மாற்றம் சமர்ப்பிக்கப்பட்டது</source>
+         <இலக்கு>அதிக முறை</இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="btnClose.Text">
+         <source>மூடு</source>
+         <இலக்கு>குறிப்பு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="labelSubmitted.Text">
+         <source>உங்கள் மாற்றம் பின்வரும் இடத்தில் மதிப்பாய்வுக்காக சமர்ப்பிக்கப்பட்டது:</source>
+         <இலக்கு>இலக்கு:
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="FormGerritDownload" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>Gerrit Change ஐப் பதிவிறக்கு</source>
+         <இலக்கு>Garget
+        
+       </trans-unit>
+       <trans-unit id="AddRemote.Text">
+         <source>ரிமோட்களை நிர்வகி</source>
+         <இலக்கு>உருவாக்கம் внешними</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="Download.Text">
+         <source>&amp;பதிவிறக்கு</source>
+         <இலக்கு>Загрузить</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_cannotGetChangeDetails.Text">
+         <source>மாற்ற விவரங்களை மீட்டெடுக்க முடியவில்லை</source>
+         <இலக்கு>எந்த நோக்கமும் இல்லை.
+        
+       </trans-unit>
+       <trans-unit id="_downloadCaption.Text">
+         <source>பதிவிறக்க மாற்றம் {0}</source>
+         <இலக்கு>Скачать изменения {0}</இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_downloadGerritChangeCaption.Text">
+         <source>Gerrit Change ஐப் பதிவிறக்கு</source>
+         <இலக்கு>Garget
+        
+       </trans-unit>
+       <trans-unit id="_selectChange.Text">
+         <source>மாற்றத்தை உள்ளிடவும்</source>
+         <இலக்கு>Poжалуйста, введите изменения</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_selectRemote.Text">
+         <source>ஒரு தொலை களஞ்சியத்தைத் தேர்ந்தெடுக்கவும்</source>
+         <இலக்கு>Poжалуйста, выберите внешний репозиторий</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="labelChange.Text">
+         <source>மாற்று:</source>
+         <இலக்கு>எஜமானிய:</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="labelEnterChangeIdOrNumber.Text">
+         <source>Change-Id அல்லது Gerrit URL இலிருந்து எண்ணை உள்ளிடவும்</source>
+         <இலக்கு>Vедите Change-Id அல்லது Gerrit URL</target>
+        
+       </trans-unit>
+       <trans-unit id="labelRemote.Text">
+         <source>ரிமோட்:</source>
+         <இலக்கு>Внешний:</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="labelTopicBranch.Text">
+         <source>தலைப்புக் கிளை:</source>
+         <இலக்கு>Ветка-тема:</ இலக்கு>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="FormGerritPublish" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>Gerrit Change ஐ வெளியிடு</source>
+         <இலக்கு>Опубликовать изменения в Gerrit</target>
+        
+       </trans-unit>
+       <trans-unit id="AddRemote.Text">
+         <source>ரிமோட்களை நிர்வகி</source>
+         <இலக்கு>உருவாக்கம் внешними</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="Publish.Text">
+         <source>&amp;Publish</source>
+         <இலக்கு>Опубликовать</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_publishCaption.Text">
+         <source>மாற்றத்தை வெளியிடு</source>
+         <இலக்கு>Опубликовать изменения</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_publishGerritChangeCaption.Text">
+         <source>Gerrit Change ஐ வெளியிடு</source>
+         <இலக்கு>Опубликовать изменения в Gerrit</target>
+        
+       </trans-unit>
+       <trans-unit id="_selectBranch.Text">
+         <source>ஒரு கிளையை உள்ளிடவும்</source>
+         <இலக்கு>Poжалуйста, введите ветку</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_selectRemote.Text">
+         <source>ஒரு தொலை களஞ்சியத்தைத் தேர்ந்தெடுக்கவும்</source>
+         <இலக்கு>Poжалуйста, выберите внешний репозиторий</ இலக்கு>
+		 </trans-unit>
+       <trans-unit id="labelBranch.Text">
+         <source>கிளை:</source>
+         <target>Ветка:</ target>
+        
+       </trans-unit>
+       <trans-unit id="labelCc.Text">
+         <source>CC:</source>
+         <இலக்கு>கோப்பிய:</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="labelHashtag.Text">
+         <source>Hashtag:</source>
+         <இலக்கு>Хештег:</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="labelPublishType.Text">
+         <source>வெளியீட்டு வகை:</source>
+         <இலக்கு>டிப் публикации:</target>
+        
+       </trans-unit>
+       <trans-unit id="labelRemote.Text">
+         <source>ரிமோட்:</source>
+         <இலக்கு>Внешний:</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="labelReviewers.Text">
+         <source>விமர்சகர்(கள்):</source>
+         <இலக்கு>ரெவ்யுவர்(ы):</target>
+        
+       </trans-unit>
+       <trans-unit id="labelTopic.Text">
+         <source>தலைப்பு:</source>
+         <target>தீமா:</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="FormGitReview" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>திருத்து .gitreview</source>
+         <target>Редактировать .gitreview</target>
+        
+       </trans-unit>
+       <trans-unit id="Save.Text">
+         <source>சேமி</source>
+         <இலக்கு>சோக்ரனித்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_cannotAccessGitreview.Text">
+         <source>.gitreview சேமிக்க முடியவில்லை.
+கோப்பு அணுகக்கூடியதா எனச் சரிபார்க்கவும்.</source>
+         <இலக்கு> இல்லை удалось сохранить .gitreview.
+முயற்சி
+        
+       </trans-unit>
+       <trans-unit id="_cannotAccessGitreviewCaption.Text">
+         <source>.gitreview</source> சேமிக்க முடியவில்லை
+         <இலக்கு>இல்லை удалось сохранить .gitreview</target>
+        
+       </trans-unit>
+       <trans-unit id="_gitreviewOnlyInWorkingDirSupported.Text">
+         <source>.gitreview பணிபுரியும் கோப்பகம் இருக்கும்போது மட்டுமே ஆதரிக்கப்படும்.</source>
+         <இலக்கு>.gitreview поддерживается только в рабочем каталоге.</target>
+        
+       </trans-unit>
+       <trans-unit id="_gitreviewOnlyInWorkingDirSupportedCaption.Text">
+         <source>செயல்படும் அடைவு இல்லை</source>
+         <இலக்கு>Net рабочего каталога</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_saveFileQuestion.Text">
+         <source>மாற்றங்களை .gitreview இல் சேமிக்கவா?</source>
+         <இலக்கு>சோஹ்ரானித் изменения в .gitreview?</target>
+        
+       </trans-unit>
+       <trans-unit id="_saveFileQuestionCaption.Text">
+         <source>மாற்றங்களைச் சேமிக்கவா?</source>
+         <இலக்கு>சோஹ்ரானித் изменения?</இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="label1.Text">
+         <source>இதற்கான உள்ளமைவை வழங்கவும்
+.gitreview to setup Gerrit.
+
+எடுத்துக்காட்டு உள்ளமைவு:
+
+[கெரிட்]
+host=review.example.com
+துறைமுகம்=29418
+திட்டம்=துறை/திட்டம்.git
+defaultbranch=master
+defaultremote=மதிப்பாய்வு
+defaultrebase=0</source>
+         <இலக்கு>முழு
+.gitreview чтобы настроить Gerrit.
+
+உதாரணம் கான்ஃபிகுராசிகள்:
+
+[கெரிட்]
+host=review.example.com
+துறைமுகம்=29418
+திட்டம்=துறை/திட்டம்.git
+defaultbranch=master
+defaultremote=மதிப்பாய்வு
+defaultrebase=0</target>
+        
+       </trans-unit>
+       <trans-unit id="lnkGitReviewHelp.Text">
+         <source>Git-reviewக்கான GitHub பக்கம்</source>
+         <target>Страница GitHub для git-review</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="FormGitStatistics" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>புள்ளிவிவரங்கள்</source>
+         <இலக்கு>Статистика</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="CommitStatistics.Text">
+         <source>ஏற்றுகிறது..</source>
+         <இலக்கு>Загрузка..</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="LinesOfCodePerLanguageText.Text">
+         <source>ஏற்றப்படுகிறது...</source>
+         <target>Загрузка...</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="LinesOfCodePerTypeText.Text">
+         <source>ஏற்றப்படுகிறது...</source>
+         <target>Загрузка...</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="LoadingLabel.Text">
+         <source>ஏற்றப்படுகிறது...</source>
+         <target>Загрузка...</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="TestCodeText.Text">
+         <source>ஏற்றப்படுகிறது...</source>
+         <target>Загрузка...</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="TotalCommits.Text">
+         <source>மொத்த பொறுப்புகள்</source>
+         <இலக்கு>Всего коммитов</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="TotalLinesOfCode.Text">
+         <source>குறியீட்டின் மொத்த வரிகள்</source>
+         <இலக்கு>Всего строк кода</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="TotalLinesOfCode2.Text">
+         <source>குறியீட்டின் மொத்த வரிகள்</source>
+         <இலக்கு>Всего строк кода</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="TotalLinesOfTestCode.Text">
+         <source>குறியீட்டின் மொத்த வரிகள்</source>
+         <இலக்கு>Всего
+		 строк кода</target>
+        
+       </trans-unit>
+       <trans-unit id="_blankLinesP.Text">
+         <source>{0:N0} வெற்று கோடுகள்({1:P1})</source>
+         <target>{0:N0} பொருள் ({1:P1})</target>
+        
+       </trans-unit>
+       <trans-unit id="_commentLinesP.Text">
+         <source>{0:N0} கருத்து வரிகள்({1:P1})</source>
+         <target>{0:N0} இலக்கின் கிடைக்கும் தன்மை ({1:P1})</target>
+        
+       </trans-unit>
+       <trans-unit id="_commits.Text">
+         <source>{0:N0} உறுதிமொழிகள்</source>
+         <target>{0:N0} குறிப்பு</target>
+        
+       </trans-unit>
+       <trans-unit id="_commitsBy.Text">
+         <source>{0:N0} {1}</source> மூலம் உறுதியளிக்கிறது
+         <target>{0:N0} முடிவுகள் {1}</target>
+        
+       </trans-unit>
+       <trans-unit id="_linesOfCode.Text">
+         <source>{0:N0} குறியீட்டின் கோடுகள்</source>
+         <target>{0:N0} பாடங்கள்</target>
+        
+       </trans-unit>
+       <trans-unit id="_linesOfCodeInFiles.Text">
+         < source> { 0 : N0 } { 1 } கோப்பு ( { 2 : P1 )</ source>
+         <target>{0:N0} {1} பாடங்களுக்கான பாடங்கள் ({2:P1})</target>
+        
+       </trans-unit>
+       <trans-unit id="_linesOfCodeP.Text">
+         <source>{0:N0} குறியீட்டின் கோடுகள் ({1:P1})</source>
+         <target>{0:N0} ஆவணம் ({1:P1})</target>
+        
+       </trans-unit>
+       <trans-unit id="_linesOfDesignerFilesP.Text">
+         <source>{0:N0} வடிவமைப்பாளர் கோப்புகளில் உள்ள கோடுகள் ({1:P1})</source>
+         <target>{0:N0} இலக்கிலிருந்து முடிவுகள் ({1:P1})</target>
+        
+       </trans-unit>
+       <trans-unit id="_linesOfProductionCodeP.Text">
+         <source>{0:N0} தயாரிப்புக் குறியீட்டின் கோடுகள் ({1:P1})</source>
+         <target>{0:N0} உற்பத்தியாளருக்கான முடிவுகள் ({1:P1})</target>
+        
+       </trans-unit>
+       <trans-unit id="_linesOfTestCode.Text">
+         <source>{0:N0} சோதனைக் குறியீட்டின் கோடுகள்</source>
+         <target>{0:N0} பாடங்கள்</target>
+        
+       </trans-unit>
+       <trans-unit id="_linesOfTestCodeP.Text">
+         <source>{0:N0} சோதனைக் குறியீட்டின் கோடுகள் ({1:P1})</source>
+         <target>{0:N0} பொருள் ({1:P1})</target>
+        
+       </trans-unit>
+       <trans-unit id="tabPage1.Text">
+         <source>ஒரு மொழிக்கான குறியீட்டின் கோடுகள்</source>
+         <target>இந்தப் பக்கத்தின் பார்வைகள்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="tabPage2.Text">
+         <source>ஒரு பங்களிப்பாளருக்கான பொறுப்புகள்</source>
+         <இலக்கு>காடுகளில் காட்டு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="tabPage3.Text">
+         <source>ஒரு வகைக்கான குறியீட்டின் கோடுகள்</source>
+         <target>இந்தப் பக்கத்தின் பார்வைகள்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="tabPage4.Text">
+         <source>சோதனைக் குறியீட்டின் கோடுகள்</source>
+         <இலக்கு>இந்தப் பக்கத்தின் மேற்பரப்பு</ இலக்கு>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="FormImpact" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>தாக்கம்</source>
+         <இலக்கு>பிரத்தியேக</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_authorCommits.Text">
+         <source>{0} ({1} உறுதிமொழிகள், {2} மாற்றப்பட்ட வரிகள்)</source>
+         <target>{0} ({1} ஆண், {2} ஆண்)</target>
+        
+       </trans-unit>
+       <trans-unit id="cbIncludingSubmodules.Text">
+         <source>துணை தொகுதிகள் உட்பட</source>
+         <இலக்கு>சுற்றுச்சூழலுக்கு உகந்த</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lblAuthor.Text">
+         <source>ஆசிரியர்</source>
+         <இலக்கு>Автор</ இலக்கு>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="FormPluginInformation" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>Gerrit Plugin</source>
+         <target>Pлагин Gerrit</target>
+        
+       </trans-unit>
+       <trans-unit id="btnClose.Text">
+         <source>மூடு</source>
+         <இலக்கு>பொருள்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="informationLabel.Text">
+         <source>Git நீட்டிப்புகளுக்கான Gerrit செருகுநிரல் Git நீட்டிப்புகளுக்கான Gerrit உடன் ஒருங்கிணைப்பை வழங்குகிறது. இந்த செருகுநிரல் git-review கருவியை அடிப்படையாகக் கொண்டது.
+
+ஒரு களஞ்சியத்திற்கான Gerrit ஆதரவை இயக்க, ஒரு .gitreview கோப்பு உருவாக்கப்பட வேண்டும். களஞ்சியம் | மூலம் இதை செய்யலாம் .gitreview மெனு விருப்பத்தைத் திருத்து. .gitreview கோப்பு மற்றும் git-review கருவியைப் பற்றிய கூடுதல் தகவலுக்கு கீழே உள்ள இணைப்பைப் பார்க்கவும்.</source>
+         <target>Gerrit தேவை Git Extensions மதிப்புரைகள் Gerrit தேவை Git Extensions. ஜிட்-விமர்சனத்தில் இந்தப் பக்கத்திற்கு குழுசேரவும்.
+
+நீங்கள் Gerrit இன் உள்ளடக்கத்தைப் பகிர விரும்பினால், மேலும் விவரங்களுக்கு .gitreview ஐப் பயன்படுத்தவும். பக்கங்கள் பிற பிராண்ட் இணையதளம் | சந்தாதாரர் .gitreview. புகைப்படம் .
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="GerritCapabilities" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="_publishTypeDraft.Text">
+         <source>வரைவு</source>
+		 <இலக்கு>வரைவு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_publishTypePrivate.Text">
+         <source>தனிப்பட்ட</source>
+         <target>தனியார்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_publishTypeReview.Text">
+         <source>மதிப்பாய்வுக்கு</source>
+         <target>பரிசீலனைக்கு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_publishTypeWip.Text">
+         <source>பணியில் உள்ளது</source>
+         <இலக்கு>முடிவடையாத வேலை</ இலக்கு>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="GerritPlugin" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="Name.Text">
+         <source>Gerrit Code Review</source>
+         <target>Gerrit Code Review</target>
+        
+       </trans-unit>
+       <trans-unit id="_downloadGerritChange.Text">
+         <source>Gerrit Change ஐப் பதிவிறக்கு</source>
+         <target>Gerrit இலிருந்து மாற்றங்களைப் பதிவிறக்கவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="_editGitReview.Text">
+         <source>திருத்து .gitreview</source>
+         <target>திருத்து .gitreview</target>
+        
+       </trans-unit>
+       <trans-unit id="_installCommitMsgHook.Text">
+         <source>ஹூக்கை நிறுவு</source>
+         <இலக்கு>ஹூக்கை நிறுவு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_installCommitMsgHookDownloadFileFailed.Text">
+         <source>commit-msg கோப்பைப் பதிவிறக்க முடியவில்லை. கமிட்-எம்எஸ்ஜி ஹூக்கை கைமுறையாக நிறுவவும்.</source>
+         <target>commit-msg கோப்பைப் பதிவிறக்குவதில் தோல்வி. கமிட்-எம்எஸ்ஜி ஹூக்கை கைமுறையாக அமைக்கவும்.</target>
+        
+       </trans-unit>
+       <trans-unit id="_installCommitMsgHookFolderCreationFailed.Text">
+         <source>ஹூக்ஸ் கோப்புறையை உருவாக்க முடியவில்லை. கோப்புறையை கைமுறையாக உருவாக்கி மீண்டும் முயற்சிக்கவும்.</source>
+         <target>'ஹூக்ஸ்' கோப்புறையை உருவாக்க முடியவில்லை. அதை கைமுறையாக உருவாக்கி மீண்டும் முயற்சிக்கவும்.</target>
+        
+       </trans-unit>
+       <trans-unit id="_installCommitMsgHookMessage.Text">
+         <source>Gerrit க்கு ஒரு கமிட்-எம்எஸ்ஜி ஹூக்கை நிறுவ வேண்டும். கமிட்-எம்எஸ்ஜி ஹூக்கை உங்கள் களஞ்சியத்தில் நிறுவ விரும்புகிறீர்களா?</source>
+         <target>Gerrit க்கு கமிட்-எம்எஸ்ஜி ஹூக்கை அமைக்க வேண்டும். உங்கள் களஞ்சியத்தில் கமிட்-எம்எஸ்ஜி ஹூக்கை நிறுவ விரும்புகிறீர்களா?</target>
+        
+       </trans-unit>
+       <trans-unit id="_installCommitMsgHookShortText.Text">
+         <source>commit-msg hook ஐ நிறுவு</source>
+         <இலக்கு>கமிட்-எம்எஸ்ஜி ஹூக்கை நிறுவவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="_predefinedGerritVersion.Caption">
+         <source>Gerrit ஐக் கொண்ட பதிப்பாகக் கருதுங்கள்</source>
+         <target>Gerrit ஐப் பதிப்பாகக் கருதுங்கள்</target>
+        
+       </trans-unit>
+       <trans-unit id="_publishGerritChange.Text">
+         <source>Gerrit Change ஐ வெளியிடு</source>
+         <target>Gerrit க்கு மாற்றங்களை வெளியிடவும்</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="GerritSettings" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="_settingsError.Text">
+         <source>.gitreview கோப்பை ஏற்றுவதில் பிழை.</source>
+         <target>.gitreview கோப்பை ஏற்றுவதில் பிழை.</target>
+        
+       </trans-unit>
+       <trans-unit id="_settingsErrorDefaultRemoteNotPresent.Text">
+         <source>ரிமோட் "{0}" &quot;defaultremote&quot; .gitreview கோப்பில் அமைப்பது உள்ளமைக்கப்பட்ட ரிமோட்டைக் குறிக்காது. இந்த ரிமோட்டை உருவாக்கலாம் அல்லது .gitreview கோப்பில் அமைப்பை மாற்றலாம்.</source>
+         <target>வெளிப்புற களஞ்சியம் "{0}" &quot;defaultremote&quot; .gitreview கோப்பு அமைப்புகளில் உள்ளமைக்கப்பட்ட வெளிப்புற களஞ்சியங்களுக்கு பொருந்தாது. இந்த வெளிப்புற களஞ்சியத்தை உருவாக்கவும் அல்லது .gitreview.</target> கோப்பில் உள்ள அமைப்புகளை மாற்றவும்.
+        
+       </trans-unit>
+       <trans-unit id="_settingsErrorFileNotFound.Text">
+         <source> &quot;.gitreview&quot; செயல்படும் கோப்பகத்தில் கோப்பு.</source>
+         <target>'.gitreview'ஐக் கண்டுபிடிக்க முடியவில்லை செயல்படும் கோப்பகத்தில் கோப்பு.</target>
+        
+       </trans-unit>
+       <trans-unit id="_settingsErrorHostNotEntered.Text">
+         <source> &quot;புரவலன்&quot; .gitreview கோப்பில் அமைப்பது கட்டாயமாகும்.</source>
+         <இலக்கு>&quot;புரவலன்&quot; .gitreview கோப்பில் உள்ள அமைப்பு தேவை.</target>
+        
+       </trans-unit>
+       <trans-unit id="_settingsErrorPortNotNumeric.Text">
+         <source> &quot;போர்ட்&quot; .gitreview கோப்பில் குறிப்பிடப்பட்டுள்ள இலக்கங்கள் மட்டுமே இருக்கலாம்.</source>
+         <இலக்கு>&quot;போர்ட்&quot; .gitreview கோப்பில் குறிப்பிடப்பட்ட எண்கள் மட்டுமே இருக்க முடியும்.</target>
+        
+       </trans-unit>
+       <trans-unit id="_settingsErrorProjectNotEntered.Text">
+         <source> &quot;திட்டம்&quot; .gitreview கோப்பில் அமைப்பது கட்டாயமாகும்.</source>
+         <இலக்கு>&quot;புரவலன்&quot; .gitreview கோப்பில் உள்ள அமைப்பு தேவை.</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="GitFlowForm" source-lang
+   
+   uage="en" target-language="en">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>GitFlow</source>
+         <target>GitFlow</target>
+        
+       </trans-unit>
+       <trans-unit id="_gitFlowTooltip.Text">
+         <source>Git உடன் உங்கள் திட்டத்திற்கான ஒரு நல்ல கிளை மாதிரி...</source>
+         <target>Git திட்டத்திற்கான நல்ல கிளை அமைப்பு...</target>
+        
+       </trans-unit>
+       <trans-unit id="_loading.Text">
+         <source>ஏற்றப்படுகிறது...</source>
+         <இலக்கு>ஏற்றுகிறது...</இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_noBranchExist.Text">
+         <source>{0} கிளைகள் இல்லை.</source>
+         <target>{0} கிளைகள் இல்லை.</target>
+        
+       </trans-unit>
+       <trans-unit id="btnClose.Text">
+         <source>மூடு</source>
+         <இலக்கு>மூடு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="btnCreateBranch.Text">
+         <source>தொடங்கு!</source>
+         <இலக்கு>தொடங்கு!</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="btnFinish.Text">
+         <source>முடிவு</source>
+         <இலக்கு>முடிக்கவும்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="btnInit.Text">
+         <source>Init GitFlow</source>
+         <இலக்கு>GitFlow ஐ துவக்கவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="btnPublish.Text">
+         <source>வெளியிடு</source>
+         <இலக்கு>வெளியிடு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="btnPull.Text">
+         <source>இழு</source>
+         <இலக்கு>பெறு</ ​​இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="cbBasedOn.Text">
+         <source>அதன் அடிப்படையில்:</source>
+         <இலக்கு>அடிப்படையில்:</target>
+        
+       </trans-unit>
+       <trans-unit id="cbPushAfterFinish.Text">
+         <source>முடிந்த பிறகு தள்ளு</source>
+         <target>முடிந்ததும் சமர்ப்பிக்கவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="cbSquash.Text">
+         <source>Squash</source>
+         <இலக்கு>ஸ்குவாஷ்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="gbManage.Text">
+         <source>தற்போதுள்ள கிளைகளை நிர்வகிக்கவும்:</source>
+         <target>தற்போதுள்ள கிளைகளை நிர்வகித்தல்:</target>
+        
+       </trans-unit>
+       <trans-unit id="gbStart.Text">
+         <source>கிளையைத் தொடங்கு:</source>
+         <target>கிளையைத் தொடங்கு:</ target>
+        
+       </trans-unit>
+       <trans-unit id="label1.Text">
+         <source>கிளை:</source>
+         <இலக்கு>கிளை:</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="label10.Text">
+         <source>எதிர்பார்க்கப்படும் பெயர்:</source>
+         <target>எதிர்பார்க்கப்படும் பெயர்:</target>
+        
+       </trans-unit>
+       <trans-unit id="label2.Text">
+         <source>கட்டளை:</source>
+         <target>கட்டளை:</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="label9.Text">
+         <source>இலிருந்து இழுக்க ரிமோட் :</source>
+         <target>இலிருந்து பெற வேண்டிய களஞ்சியம்:</target>
+        
+       </trans-unit>
+       <trans-unit id="lblCaptionHead.Text">
+         <source>HEAD:</source>
+         <target>HEAD:</target>
+        
+       </trans-unit>
+       <trans-unit id="lblHead.Text">
+         <source>ref/...</source>
+         <target>ref/...</target>
+        
+       </trans-unit>
+       <trans-unit id="lblPrefixDescription.Text">
+         <source>[prefix]/</source>
+         <இலக்கு>[முன்னொட்டு]/</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="lnkGitFlow.Text">
+         <source>GitFlow பற்றி</source>
+         <target>GitFlow பற்றி</target>
+        
+       </trans-unit>
+       <trans-unit id="panel3.Text">
+         <source>git flow கட்டளை இயக்கத்தின் முடிவு</source>
+         <இலக்கு>ஜிட் ஃப்ளோவை இயக்குவதன் முடிவு</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="GitFlowPlugin" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="Name.Text">
+         <source>GitFlow</source>
+         <target>GitFlow</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="GitHub3Plugin" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="Name.Text">
+         <source>GitHub</source>
+         <target>GitHub</target>
+        
+       </trans-unit>
+       <trans-unit id="GitHubHost.Caption">
+         <source>GitHub (Enterprise) ஹோஸ்ட்பெயர்</source>
+         <target>GitHub (Enterprise) ஹோஸ்ட்பெயர்</target>
+        
+       </trans-unit>
+       <trans-unit id="OAuthToken.Caption">
+         <source>OAuth டோக்கன்</source>
+         <target>OAuth டோக்கன்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_tokenAlreadyExist.Text">
+         <source>உங்களிடம் ஏற்கனவே OAuth டோக்கன் உள்ளது. புதிய ஒன்றைப் பெற, செருகுநிரல்களில் உங்கள் பழையதை நீக்கவும் &gt; முதலில் அமைப்புகள்.</source>
+         <target>உங்களிடம் ஏற்கனவே தனிப்பட்ட அணுகல் டோக்கன் உள்ளது. புதியதைப் பெற, செருகுநிரல்களில் பழையதை நீக்கவும் &gt; அமைப்புகள்.</target>
+        
+       </trans-unit>
+       <trans-unit id="_viewInWebSite.Text">
+         <source>{0} இல் காண்க</source>
+         <target>{0} இல் பார்க்கவும்</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" தோற்றம்
+   al="GitImpactPlugin" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="Name.Text">
+         <source>தாக்க வரைபடம்</source>
+         <இலக்கு>சிறிய பனித்துளிகள்</ இலக்கு>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="GitStatisticsPlugin" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="Name.Text">
+         <source>புள்ளிவிவரங்கள்</source>
+         <இலக்கு>ஆங்கிலம்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_codeFiles.Caption">
+         <source>குறியீடு கோப்புகள்</source>
+         <இலக்கு>நேருக்கு நேர்</target>
+        
+       </trans-unit>
+       <trans-unit id="_ignoreDirectories.Caption">
+         <source>புறக்கணிக்க வேண்டிய அடைவுகள் (EndsWith)</source>
+         <target>பப்ளிஷர்ஸ் ஸ்னோஃப்ளேக்ஸ் (ஸ்னோஃப்ளேக்ஸ் போன்றவை)</target>
+        
+       </trans-unit>
+       <trans-unit id="_ignoreSubmodules.Caption">
+         <source>துணை தொகுதிகளை புறக்கணிக்கவும்</source>
+         <இலக்கு>ஆங்கில ஸ்னோஃப்ளேக்ஸ்</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="GourcePlugin" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="Name.Text">
+         <source>Gource</source>
+         <target>Gource</target>
+        
+       </trans-unit>
+       <trans-unit id="_bytesDownloaded.Text">
+         <source>{0} பைட்டுகள் பதிவிறக்கப்பட்டன.</source>
+         <target>{0} அஞ்சல்பெட்டி.</target>
+        
+       </trans-unit>
+       <trans-unit id="_cannotFindGource.Text">
+         <source>Gource ஐக் கண்டுபிடிக்க முடியவில்லை.
+Gource ஐப் பதிவிறக்கி, செருகுநிரல் அமைப்புகள் உரையாடலில் பாதையை அமைக்கவும்.</source>
+         <இலக்கு>Gource வாங்க வேண்டாம்.
+சிறந்த Gource தயாரிப்புகளைப் பெற்று, உங்கள் இணையதளத்தில் சிறந்த முடிவுகளைப் பெறுங்கள்.</target>
+        
+       </trans-unit>
+       <trans-unit id="_currentDirectoryIsNotValidGit.Text">
+         <source>தற்போதைய கோப்பகம் செல்லுபடியாகும் git களஞ்சியமாக இல்லை.
+
+செல்லுபடியாகும் git களஞ்சியத்திலிருந்து மட்டுமே Gource ஐ தொடங்க முடியும்.</source>
+         <இலக்கு>பொருள் விஷயங்கள் git க்கு கிடைக்கவில்லை.
+
+Git.</target> போன்ற ஆதரவு Gource இல் இல்லை
+        
+       </trans-unit>
+       <trans-unit id="_doYouWantDownloadGource.Text">
+         <source>Gourceக்கான பாதை எதுவும் உள்ளமைக்கப்படவில்லை.
+
+Gource ஐ தானாக பதிவிறக்க விரும்புகிறீர்களா?</source>
+         <இலக்கு>Gource வாங்க வேண்டாம்.
+
+Gource ஐ வாங்க விரும்புகிறீர்களா?</target>
+        
+       </trans-unit>
+       <trans-unit id="_download.Text">
+         <source>பதிவிறக்கு</source>
+         <இலக்கு>ஆங்கிலம்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_downloadFailed.Text">
+         <source>பதிவிறக்க முடியவில்லை.
+Gource ஐப் பதிவிறக்கி, செருகுநிரல் அமைப்புகள் உரையாடலில் பாதையை அமைக்கவும்.</source>
+         <target>பாடங்கள் கிடைக்கவில்லை.
+நீங்கள் Gource ஐ வாங்கி உங்கள் முகத்தில் ஒரு புன்னகையை உருவாக்குவதை உறுதிப்படுத்திக் கொள்ளுங்கள்.</target>
+        
+       </trans-unit>
+       <trans-unit id="_gource.Text">
+         <source>Gource</source>
+         <target>Gource</target>
+        
+       </trans-unit>
+       <trans-unit id="_gourceArguments.Caption">
+         <source>வாதங்கள்</source>
+         <இலக்கு>அர்குமென்ட்</target>
+        
+       </trans-unit>
+       <trans-unit id="_gourceDownloadedAndUnzipped.Text">
+         <source>Gource பதிவிறக்கம் செய்யப்பட்டு அன்சிப் செய்யப்பட்டது.</source>
+         <target>கோர்ஸ் ஸ்நாக்ஸ் மற்றும் பாட்டில்கள்.</target>
+        
+       </trans-unit>
+       <trans-unit id="_gourcePath.Caption">
+         <source>Gourceக்கான பாதை</source>
+         <இலக்கு>Путь к கோர்ஸ்</target>
+        
+       </trans-unit>
+       <trans-unit id="_resetConfigPath.Text">
+         <source>கட்டமைக்கப்பட்ட பாதையில் Gource ஐக் கண்டுபிடிக்க முடியவில்லை: {0}.
+
+உள்ளமைக்கப்பட்ட பாதையை மீட்டமைக்க விரும்புகிறீர்களா?</source>
+         <target>Gource க்கான ஒழுங்கமைக்கப்பட்ட வீடியோக்கள்: {0}
+
+உங்கள் முகத்தில் புன்னகை இருக்க வேண்டுமா?</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="GourceStart" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>Gource</source>
+         <target>Gource</target>
+        
+       </trans-unit>
+       <trans-unit id="ArgumentsLabel.Text">
+         <source>வாதங்கள்</source>
+         <இலக்கு>அர்குமென்ட்</target>
+        
+       </trans-unit>
+       <trans-unit id="GourceBrowse.Text">
+         <source>உலாவு</source>
+         <target>Oбзор</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="WorkingDirBrowse.Text">
+         <source>உலாவு</source>
+         <target>Oбзор</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="button1.Text">
+         <source>தொடங்கு</source>
+         <இலக்கு>விண்வெளி</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="label1.Text">
+         <source>Gourceக்கான பாதை</source>
+         <இலக்கு>Путь к கோர்ஸ்</target>
+        
+       </trans-unit>
+       <trans-unit id="label2.Text">
+         <source> களஞ்சியம்</source>
+         <இலக்கு>பொருள்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="linkLabel1.Text">
+         <source>Gource project</source>
+         <target>Gource</target>
+		 </trans-unit>
+       <trans-unit id="linkLabel2.Text">
+         < source > கட்டளை வரி நூல்</ source>
+         <target>கோர்ஸ் சிகை அலங்காரங்கள்</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="JenkinsSettingsUserControl" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="lblIgnoreBuildBranch.Text">
+         <source>கிளைக்கான உருவாக்கத்தை புறக்கணிக்கவும்</source>
+         <இலக்கு>ஸ்னோஃப்ளேக்ஸ் வெளியீட்டாளர்கள்</target>
+        
+       </trans-unit>
+       <trans-unit id="lblJenkinsServerUrl.Text">
+         <source>Jenkins சர்வர் URL</source>
+         <target>Jenkins தொகுப்பு URL</target>
+        
+       </trans-unit>
+       <trans-unit id="lblProjectName.Text">
+         <source>திட்டத்தின் பெயர்</source>
+         <இலக்கு>அனுபவம்</ இலக்கு>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="JiraCommitHintPlugin" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="Name.Text">
+         <source>ஒரு உறுதி குறிப்பு உள்ளது</source>
+         <இலக்கு>ஜிரா உற்பத்தியாளரின் பார்வைகள்</target>
+        
+       </trans-unit>
+       <trans-unit id="EmptyQueryResultCaption.Text">
+         <source>முதல் பணி முன்னோட்டம்</source>
+         <இலக்கு>தயாரிக்கப்பட்ட ஸ்னோஃப்ளேக்ஸ்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="EmptyQueryResultMessage.Text">
+         <source>[வெற்றுக் காட்சிகள் வினவல் முடிவு]</source>
+         <target>[கிராபிட் பக்கம் ஜிரா]</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="InvalidUrlCaption.Text">
+         <source>தவறான காட்சிகள் url</source>
+         <target>ஆங்கிலப் பக்கம் ஜிரா</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="InvalidUrlMessage.Text">
+         <source>Jira வினவல் உதவியாளரைத் தொடங்க சரியான url தேவை</source>
+         <target>ஜிரா பக்கத்திலிருந்து சிறந்த முடிவுகளைப் பெற விரும்பினால்</target>
+        
+       </trans-unit>
+       <trans-unit id="JiraFieldLabel.Text">
+         <source>புலங்கள் உள்ளன</source>
+         <target>இருக்கிறது</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="PreviewButtonText.Text">
+         <source>முன்னோட்டம்</source>
+         <இலக்கு>பாடங்கள்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="QueryHelperLinkText.Text">
+         <source>ஜிராவிற்குள் வினவல் உதவியாளரைத் திற</source>
+         <target>ஜிராவின் பக்கத்திற்கு உட்பட்டது</target>
+        
+       </trans-unit>
+       <trans-unit id="QueryHelperOpenErrorText.Text">
+         <source>வினவல் உதவியைக் காட்டு</source> திறக்க முடியவில்லை
+         <target>ஜிராவுக்காக இந்த வீடியோவைப் பார்க்க வேண்டாம்</target>
+        
+       </trans-unit>
+       <trans-unit id="_credentialSettings.Caption">
+         <source>நற்சான்றிதழ்களைப் பெறுக</source>
+         <இலக்கு>பொறியாளர் ஜிரா</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_enabledSettings.Caption">
+         <source>குறிப்பு சொருகி இயக்கப்பட்டிருங்கள்</source>
+         <target>Subject Jira குறிப்பு பொருள்</target>
+        
+       </trans-unit>
+       <trans-unit id="_jqlQuerySettings.Caption">
+         <source>JQL வினவல்</source>
+         <target>JQL பக்கம்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_stringTemplateSetting.Caption">
+         <source>செய்தி டெம்ப்ளேட்</source>
+         <இலக்கு>சிறிய அளவு</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_urlSettings.Caption">
+         <source>URL ஐப் பெறுக</source>
+         <target>இருக்கும் URL</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="ProxySwitcherForm" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>ProxySwitcher</source>
+         <இலக்கு>சிறிய பனித்துளிகள்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="ApplyGlobally_CheckBox.Text">
+         <source>உலகளவில் விண்ணப்பிக்கவும்</source>
+         <இலக்கு>சிறிய பனித்துளிகள்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="GlobalHttpProxy_Label.Text">
+         <source>Globalhttp.proxy:</source>
+         <target>ப்ராக்ஸி http.proxy:</target>
+        
+       </trans-unit>
+       <trans-unit id="LocalHttpProxy_Label.Text">
+         <source>உள்ளூர் http.proxy:</source>
+         <target>பொருள் http.proxy:</target>
+        
+       </trans-unit>
+       <trans-unit id="SetProxy_Button.Text">
+         <source>செட் ப்ராக்ஸி</source>
+         <இலக்கு>சுற்றுச்சூழலுக்கு உகந்த</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="UnsetProxy_Button.Text">
+         <source>ப்ராக்ஸியை அன்செட்</source>
+         <target>பிரத்தியேக வீடியோ</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_pleaseSetProxy.Text">
+         <source> எந்த ப்ராக்ஸியும் உள்ளமைக்கப்படவில்லை. ப்ராக்ஸி ஹோஸ்டை செருகுநிரல் அமைப்புகளில் அமைக்கவும்.</source>
+         <இலக்கு>இந்த வீடியோவைப் பார்க்க வேண்டாம். கடைசியாக, உங்கள் இணையதளத்தில் சிறந்த முடிவுகளைப் பெறலாம்.</target>
+        
+       </trans-unit>
+       <trans-unit id="_pluginName.Text">
+         <source>ProxySwitcher</source>
+         <இலக்கு>சிற்றுண்டிகளை பிரித்தெடுக்கிறது</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="ProxySwitcherPlug
+   in" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="Name.Text">
+         <source>Proxy Switcher</source>
+         <இலக்கு>Pереключатель прокси</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="HttpProxy.Caption">
+         <source>HTTP ப்ராக்ஸி</source>
+         <இலக்கு>HTTP прокси</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="HttpProxyPort.Caption">
+         <source>HTTP ப்ராக்ஸி போர்ட்</source>
+         <இலக்கு>HTTP прокси порт</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="Password.Caption">
+         <source>கடவுச்சொல்</source>
+         <இலக்கு>பரோல்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="Username.Caption">
+         <source>பயனர்பெயர்</source>
+         <இலக்கு>Имя пользователя</ இலக்கு>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="ReleaseNotesGeneratorForm" source-language="en" target-language="ru">
+     <உடல்>
+       <trans-unit id="$this.Text">
+         <source>Release Notes Generator</source>
+         <இலக்கு>கெனரேட்டர் ஆரம்பம்
+        
+       </trans-unit>
+       <trans-unit id="_caption.Text">
+         <source>தவறான உள்ளீடு</source>
+         <இலக்கு>நோபஸ்ட்டிம் வீடியோ</target>
+        
+       </trans-unit>
+       <trans-unit id="_commitLogFrom.Text">
+         <source>'{0}' இலிருந்து '{1}' ({2}) வரையிலான பதிவு:</source>
+         <இலக்கு>Закоммитить лог из '{0}' в '{1}' ({2}):</target>
+        
+       </trans-unit>
+       <trans-unit id="_fromCommitNotSpecified.Text">
+         <source>'From' உறுதி குறிப்பிடப்பட வேண்டும்</source>
+         <இலக்கு>Должен быть указан коммит &quot;из&quot;</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_toCommitNotSpecified.Text">
+         <source>'to' உறுதி குறிப்பிடப்பட வேண்டும்</source>
+         <இலக்கு>Должен быть указан коммит &quot;в&quot;</target>
+        
+       </trans-unit>
+       <trans-unit id="buttonCopyAsHtml.Text">
+         <source>HTML அட்டவணையாக</source>
+         <இலக்கு>காக் HTML таблица</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="buttonCopyAsTextTableSpace.Text">
+         <source>உரை அட்டவணையாக (இடைவெளிகள்)</source>
+         <இலக்கு>கக் டெக்ஸ்டோவயா தப்ளிஷா (பிரபலம்)</இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="buttonCopyAsTextTableTab.Text">
+         <source>உரை அட்டவணையாக (தாவல்கள்)</source>
+         <இலக்கு>как текстовая таблица (табы)</target>
+        
+       </trans-unit>
+       <trans-unit id="buttonCopyOrigOutput.Text">
+         <source>அசல் வெளியீடு</source>
+         <target>исходный вывод</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="buttonGenerate.Text">
+         <source>உருவாக்கு</source>
+         <இலக்கு>Генерировать</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="groupBox1.Text">
+         <source>முடிவு</source>
+         <இலக்கு>இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="groupBoxCopy.Text">
+         <source>கிளிப்போர்டுக்கு நகலெடு</source>
+         <இலக்கு>கோப்பிரோவத் வில் புஃபர்</இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="label1.Text">
+         <source>கமிட் எக்ஸ்பிரஷன் &quot;செய்ய&quot; (உட்பட):</source>
+         <இலக்கு>Выражение коммита &quot;செய்ய&quot; (включая):</target>
+        
+       </trans-unit>
+       <trans-unit id="label10.Text">
+         <source>இடைவெளிகளுடன் தனி நெடுவரிசைகள்</source>
+         இலக்கு
+        
+       </trans-unit>
+       <trans-unit id="label11.Text">
+         <source>கிளிப்போர்டு HTML குறியீடு (எளிய உரை) மற்றும் HTML வடிவமைப்பைக் கொண்டிருக்கும்
+MS Word அல்லது LibreOffice Writer போன்ற நிரல்களில் ஒட்டலாம்.</source>
+         <இலக்கு>புஃபர் ஒப்மெனா புடெட் சோடர்ஜட் கோட் HTML (கோள் டெக்ஸ்) மற்றும் ஃபார்மட் HTML, கோட்டரி மோக்னோ விஸ்டாவிட் வார்ட்
+        
+       </trans-unit>
+       <trans-unit id="label2.Text">
+         <source>கமிட் எக்ஸ்பிரஷன் &quot;இருந்து&quot; (தவிர):</source>
+         &quot;இருந்து&quot; (исключая):</target>
+        
+       </trans-unit>
+       <trans-unit id="label3.Text">
+         <source>git log வாதங்கள்:</source>
+         <target>аргументы git log:</target>
+        
+       </trans-unit>
+       <trans-unit id="label4.Text">
+         <source>{0} = இருந்து; {1} = க்கு</source>
+         <இலக்கு>{0} = из; {1} = в</இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="label5.Text">
+         <source>வரிசைப்படுத்துதல்: மிகச் சமீபத்திய திருத்தங்கள் மேலே பட்டியலிடப்பட்டுள்ளன.</source>
+         <இலக்கு>சோர்ட்டிரோவ்கா: последние ревизии указаны сверху.</target>
+        
+       </trans-unit>
+       <trans-unit id="label6.Text">
+         <source>திருத்தங்களின் எண்ணிக்கை = </source>
+         <இலக்கு>கோல்-வொ ревизий</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="label7.Text">
+         <source>(கமிட் வெளிப்பாடுகள் கமிட் ஹாஷ்களாக இருக்கலாம்,
+கிளை பெயர்கள், குறிச்சொல் பெயர்கள்)</source>
+         <இலக்கு>(விராஜெனிய கொம்மிட்டா மொகுட் быть хешами,
+именами веток, тегами)</target>
+        
+       </trans-unit>
+       <trans-unit id="label8.Text">
+         <source>அப்படியே</source>
+         <இலக்கு>கேக்</ இலக்கு>
+        
+       </trans-unit>
+       <tr
+	   ans-unit id="label9.Text">
+         <source>தாவல்களுடன் தனி நெடுவரிசைகள்</source>
+         <target>தாவல்களுடன் தனி நெடுவரிசைகள்</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="labelRevCount.Text">
+         <source>n/a</source>
+         <இலக்கு>கிடைக்கவில்லை</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="ReleaseNotesGeneratorPlugin" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="Name.Text">
+         <source>Release Notes Generator</source>
+         <target>விளக்க ஜெனரேட்டரை வெளியிடவும்</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="SettingsUserControl" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="ExtractLink.Text">
+         <source>கிளிப்போர்டில் நகலெடுக்கப்பட்ட உருவாக்க முடிவு url இலிருந்து தரவைப் பிரித்தெடுக்கவும்</source>
+         <இலக்கு>அசெம்பிளி URL இலிருந்து தகவலைப் பிரித்தெடுத்தல் கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது</target>
+        
+       </trans-unit>
+       <trans-unit id="TokenManagementLink.Text">
+         <source>டோக்கன் மேலாண்மை பக்கத்திற்கு செல்க</source>
+         <இலக்கு>டோக்கன் மேலாண்மை பக்கத்திற்கு செல்க</ இலக்கு>
+        
+       </trans-unit>
+       <trans-unit id="_failToExtractDataFromClipboardCaption.Text">
+         <source>தரவைப் பிரித்தெடுக்க முடியவில்லை</source>
+         <இலக்கு>தரவைப் பெறுவதில் தோல்வி</target>
+        
+       </trans-unit>
+       <trans-unit id="_failToExtractDataFromClipboardMessage.Text">
+         <source>கிளிப்போர்டில் சரியான பில்ட் url இல்லை.
+
+மீண்டும் முயற்சிக்கும் முன், கட்டமைப்பின் urlஐ கிளிப்போர்டில் நகலெடுக்கவும்.
+(குறைந்தது &quot;buildId&quot; அளவுருவைக் கொண்டிருக்க வேண்டும்)</source>
+         <இலக்கு>கிளிப்போர்டில் சரியான கட்டுமான முகவரி இல்லை..
+
+மீண்டும் முயற்சிக்கும் முன், உருவாக்க முகவரியை உங்கள் கிளிப்போர்டுக்கு நகலெடுக்கவும்.
+(குறைந்தது buildId அளவுருவையாவது கொண்டிருக்க வேண்டும்)</target>
+        
+       </trans-unit>
+       <trans-unit id="_failToLoadBuildDefinitionInfoMessage.Text">
+         <source>url இலிருந்து உருவாக்க வரையறை தகவலை மீட்டெடுக்க முயற்சிக்கும் போது பிழை.
+
+url செல்லுபடியாகும் என்பதையும், API டோக்கனுக்கு தகவலை உருவாக்க மற்றும் திட்டமிடுவதற்கான அணுகல் இருப்பதையும் உறுதிப்படுத்தவும்.</source>
+         <target>URL இலிருந்து சட்டசபை தகவலைப் பெறுவதில் பிழை.
+எல்.
+
+URL செல்லுபடியாகும் என்பதையும், API டோக்கனுக்கு தகவலை உருவாக்க மற்றும் திட்டமிடுவதற்கான அணுகல் இருப்பதையும் உறுதிப்படுத்தவும்.</target>
+        
+       </trans-unit>
+       <trans-unit id="_infoNoApiTokenMessage.Text">
+         <source>API டோக்கன் இல்லாமல் உருவாக்க வரையறை தகவலை மீட்டெடுக்க முடியவில்லை. புலம் காலியாக விடப்படும்.</source>
+         <இலக்கு>API டோக்கன் இல்லாமல் சட்டசபை தகவலைப் பெற முடியவில்லை. புலம் காலியாகவே இருக்கும்.</target>
+        
+       </trans-unit>
+       <trans-unit id="label1.Text">
+         <source>உதாரணங்கள்:
+  - https://dev.azure.com/yourorganization/projectname/
+  - https://yourhost:8080/tfs/collectionname/projectname/
+  - https://yourorganization.visualstudio.com/projectname/</source>
+         <இலக்கு>உதாரணங்கள்:
+  - https://dev.azure.com/yourorganization/projectname/
+  - https://yourhost:8080/tfs/collectionname/projectname/
+  - https://yourorganization.visualstudio.com/projectname/</target>
+        
+       </trans-unit>
+       <trans-unit id="label4.Text">
+         <source>நீங்கள் பின்வரும் நோக்கங்களுடன் ஒரு டோக்கனை உருவாக்க வேண்டும்:
+  - 'கட்ட (படிக்க)'
+  - 'திட்டம் மற்றும் குழு (படிக்க)'</source>
+         <target>நீங்கள் பின்வரும் அனுமதிகளுடன் ஒரு டோக்கனை உருவாக்க வேண்டும்:
+  - &quot;அசெம்பிளி (வாசிப்பு)&quot;
+  - "திட்டம் மற்றும் குழு (வாசிப்பு)"</target>
+        
+       </trans-unit>
+       <trans-unit id="labelRegexError.Text">
+         <source>'பில்ட் டெபினிஷன் பெயர்' வழக்கமான வெளிப்பாடு தவறானது மற்றும் சேமிக்கப்படாது!</source>
+         <target>வழக்கமான வெளிப்பாடு "வரையறை பெயரை உருவாக்கு" தவறானது மற்றும் சேமிக்கப்படாது!</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="TeamCitySettingsUserControl" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="CheckBoxLogAsGuest.Text">
+         <source>கட்டுமான அறிக்கையைக் காட்ட விருந்தினராக உள்நுழைக</source>
+         <இலக்கு>உருவாக்கிய அறிக்கையைக் காட்ட விருந்தினராக உள்நுழையவும்</target>
+        
+       </trans-unit>
+       <trans-unit id="_failToExtractDataFromClipboardCaption.Text">
+         <source>build url செல்லாது</source>
+         <target>தவறான உருவாக்க url</target>
+        
+       </trans-unit>
+       <trans-unit id="_failToExtractDataFromClipboardMessage.Text">
+         <source>கிளிப்போர்டில் சரியான பில்ட் url இல்லை.
+
+மீண்டும் முயற்சிக்கும் முன், கட்டமைப்பின் urlஐ கிளிப்போர்டில் நகலெடுக்கவும்.
+(குறைந்தது &quot;buildTypeId&quot; அளவுருவையாவது கொண்டிருக்க வேண்டும்)</source>
+         <target>Buffer இல் சரியான கட்டமைப்பு முகவரி இல்லை.
+
+மீண்டும் முயற்சிக்கும் முன், உருவாக்க முகவரியை நகலெடுக்கவும்.
+("buildTypeId" அளவுருவைக் கொண்டிருக்க வேண்டும்)</target>
+        
+       </trans-unit>
+       <trans-unit id="_failToLoadProjectCaption.Text">
+         <source>திட்டங்கள் மற்றும் உருவாக்க பட்டியலை ஏற்றும்போது பிழை</source>
+         <target>திட்டங்கள் மற்றும் உருவாக்க பட்டியலை ஏற்றுவதில் பிழை.</target>
+		 </trans-unit>
+       <trans-unit id="_failToLoadProjectMessage.Text">
+         <source>திட்டங்களை ஏற்றவும், பட்டியலை உருவாக்கவும் முடியவில்லை.
+சர்வர் url ஐ சரிபார்க்கவும்.</source>
+         <இலக்கு>திட்டங்களை ஏற்றுவது மற்றும் பட்டியலை உருவாக்குவது தோல்வியடைந்தது.
+சர்வர் url ஐ சரிபார்க்கவும்.</target>
+        
+       </trans-unit>
+       <trans-unit id="labelRegexError.Text">
+         <source>"பில்ட் ஐடி வடிகட்டி" வழக்கமான வெளிப்பாடு தவறானது மற்றும் சேமிக்கப்படாது!</source>
+         <இலக்கு>வழக்கமான வெளிப்பாடு "பில்ட் ஐடி வடிகட்டி" தவறானது மற்றும் சேமிக்கப்படாது!</target>
+        
+       </trans-unit>
+       <trans-unit id="lnkExtractDataFromBuildUrlCopiedInTheClipboard.Text">
+         <source>கிளிப்போர்டில் நகலெடுக்கப்பட்ட உருவாக்க url இலிருந்து தரவைப் பிரித்தெடுக்கவும்</source>
+         <target>கிளிப்போர்டுக்கு நகலெடுக்கப்பட்ட சட்டசபை முகவரியிலிருந்து தரவை மீட்டெடுக்கவும்.</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+   <file datatype="plaintext" original="TfsSettingsUserControl" source-language="en" target-language="en">
+     <உடல்>
+       <trans-unit id="labelRegexError.Text">
+         <source>'பில்ட் டெபினிஷன் பெயர்' வழக்கமான வெளிப்பாடு தவறானது மற்றும் சேமிக்கப்படாது!</source>
+         <target>வழக்கமான வெளிப்பாடு "வரையறை பெயரை உருவாக்கு" தவறானது மற்றும் சேமிக்கப்படாது!</target>
+        
+       </trans-unit>
+     </body>
+   </file>
+</xliff>
