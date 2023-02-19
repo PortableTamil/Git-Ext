@@ -155,122 +155,122 @@
       </trans-unit>
       <trans-unit id="groupBoxCreatePullRequest.Text">
         <source>Pull Request Info</source>
-        <target>Информация запроса на слияние</target>
+        <target>இழு கோரிக்கை தகவல்</target>
         
       </trans-unit>
       <trans-unit id="groupBoxInformation.Text">
         <source>Information</source>
-        <target>Информация</target>
+        <target>தகவல்</target>
         
       </trans-unit>
       <trans-unit id="groupBoxPullRequestInfo.Text">
         <source>Pull Request Info</source>
-        <target>Информация запроса на слияние</target>
+        <target>இழு கோரிக்கை தகவல்</target>
         
       </trans-unit>
       <trans-unit id="groupBoxSource.Text">
         <source>Source</source>
-        <target>Источник</target>
+        <target>மூலம்</target>
         
       </trans-unit>
       <trans-unit id="groupBoxSourceRepoView.Text">
         <source>Source</source>
-        <target>Источник</target>
+        <target>மூலம்</target>
         
       </trans-unit>
       <trans-unit id="groupBoxTarget.Text">
         <source>Target</source>
-        <target>Назначение</target>
+        <target>இலக்கு</target>
         
       </trans-unit>
       <trans-unit id="groupBoxTargetRepoView.Text">
         <source>Target</source>
-        <target>Назначение</target>
+        <target>இலக்கு</target>
         
       </trans-unit>
       <trans-unit id="lblAuthor.Text">
         <source>Author</source>
-        <target>Автор</target>
+        <target>ஆசிரியர்</target>
         
       </trans-unit>
       <trans-unit id="lblBranchView.Text">
         <source>Branch</source>
-        <target>Ветка</target>
+        <target>கிளை</target>
         
       </trans-unit>
       <trans-unit id="lblDescription.Text">
         <source>Description</source>
-        <target>Описание</target>
+        <target>விளக்கம்</target>
         
       </trans-unit>
       <trans-unit id="lblDescriptionView.Text">
         <source>Description</source>
-        <target>Описание</target>
+        <target>விளக்கம்</target>
         
       </trans-unit>
       <trans-unit id="lblRepositoryView.Text">
         <source>Repository</source>
-        <target>Репозиторий</target>
+        <target>களஞ்சியம்</target>
         
       </trans-unit>
       <trans-unit id="lblReviewerView.Text">
         <source>Reviewer (approved)</source>
-        <target>Рецензент (подтвержден)</target>
+        <target>விமர்சகர் (அங்கீகரிக்கப்பட்டவர்)</target>
         
       </trans-unit>
       <trans-unit id="lblSourceBranch.Text">
         <source>Branch</source>
-        <target>Ветка</target>
+        <target>கிளை</target>
         
       </trans-unit>
       <trans-unit id="lblSourceRepoView.Text">
         <source>Repository</source>
-        <target>Репозиторий</target>
+        <target>களஞ்சியம்</target>
         
       </trans-unit>
       <trans-unit id="lblSourceRepository.Text">
         <source>Repository</source>
-        <target>Репозиторий</target>
+        <target>களஞ்சியம்</target>
         
       </trans-unit>
       <trans-unit id="lblState.Text">
         <source>State</source>
-        <target>Состояние</target>
+        <target>நிலை</target>
         
       </trans-unit>
       <trans-unit id="lblTargetBranch.Text">
         <source>Branch</source>
-        <target>Ветка</target>
+        <target>கிளை</target>
         
       </trans-unit>
       <trans-unit id="lblTargetRepoView.Text">
         <source>Branch</source>
-        <target>Ветка</target>
+        <target>கிளை</target>
         
       </trans-unit>
       <trans-unit id="lblTargetRepository.Text">
         <source>Repository</source>
-        <target>Репозиторий</target>
+        <target>களஞ்சியம்</target>
         
       </trans-unit>
       <trans-unit id="lblTitle.Text">
         <source>Title</source>
-        <target>Заголовок</target>
+        <target>தலைப்பு</target>
         
       </trans-unit>
       <trans-unit id="lblTitleView.Text">
         <source>Title</source>
-        <target>Заголовок</target>
+        <target>தலைப்பு</target>
         
       </trans-unit>
       <trans-unit id="tabCreate.Text">
         <source>Create Pull Request</source>
-        <target>Создать запрос на слияние</target>
+        <target>இழு கோரிக்கையை உருவாக்கு</target>
         
       </trans-unit>
       <trans-unit id="tabView.Text">
         <source>View Pull Requests</source>
-        <target>Посмотреть запросы на слияние</target>
+        <target>இழு கோரிக்கைகளைப் பார்க்கவும்</target>
         
       </trans-unit>
     </body>
@@ -279,17 +279,17 @@
     <body>
       <trans-unit id="$this.Text">
         <source>Create local tracking branches</source>
-        <target>Создать локальные отслеживающие ветки</target>
+        <target>உள்ளூர் கண்காணிப்பு கிளைகளை உருவாக்கவும்</target>
         
       </trans-unit>
       <trans-unit id="button1.Text">
         <source>Create local tracking branches</source>
-        <target>Создать локальные отслеживающие ветки</target>
+        <target>உள்ளூர் கண்காணிப்பு கிளைகளை உருவாக்கவும்</target>
         
       </trans-unit>
       <trans-unit id="label1.Text">
         <source>Remote to create tracking branches for</source>
-        <target>Внешний репозиторий для которого создать отслеживающую ветку</target>
+        <target>ஒரு கண்காணிப்பு கிளையை உருவாக்குவதற்கான தொலைநிலை களஞ்சியம்</target>
         
       </trans-unit>
     </body>
@@ -298,7 +298,7 @@
     <body>
       <trans-unit id="Name.Text">
         <source>Create local tracking branches</source>
-        <target>Создать локально отслеживаемые ветки</target>
+        <target>உள்ளூர் கண்காணிப்பு கிளைகளை உருவாக்கவும்</target>
         
       </trans-unit>
     </body>
@@ -307,57 +307,57 @@
     <body>
       <trans-unit id="$this.Text">
         <source>Delete obsolete branches</source>
-        <target>Удалить устаревшие ветки</target>
+        <target>காலாவதியான கிளைகளை நீக்கு</target>
         
       </trans-unit>
       <trans-unit id="Author.HeaderText">
         <source>Last author</source>
-        <target>Последний автор</target>
+        <target>கடைசி ஆசிரியர்</target>
         
       </trans-unit>
       <trans-unit id="Cancel.Text">
         <source>Close</source>
-        <target>Закрыть</target>
+        <target>மூடு</target>
         
       </trans-unit>
       <trans-unit id="Delete.Text">
         <source>Delete</source>
-        <target>Удалить</target>
+        <target>நீக்கு</target>
         
       </trans-unit>
       <trans-unit id="IncludeRemoteBranches.Text">
         <source>Delete remote branches from</source>
-        <target>Удалить внешние ветки из</target>
+        <target>இதிலிருந்து தொலைநிலை கிளைகளை நீக்கவும்</target>
         
       </trans-unit>
       <trans-unit id="Message.HeaderText">
         <source>Last message</source>
-        <target>Последнее сообщение</target>
+        <target>கடைசி செய்தி</target>
         
       </trans-unit>
       <trans-unit id="RefreshBtn.Text">
         <source>Search branches</source>
-        <target>Выбрать ветки</target>
+        <target>கிளைகளைத் தேடுங்கள்</target>
         
       </trans-unit>
       <trans-unit id="_areYouSureToDelete.Text">
         <source>Are you sure to delete {0} selected branches?</source>
-        <target>Вы уверены, что хотите удалить {0} выбранные ветки?</target>
+        <target>தேர்ந்தெடுக்கப்பட்ட {0} கிளைகளை நிச்சயமாக நீக்க விரும்புகிறீர்களா?</target>
         
       </trans-unit>
       <trans-unit id="_branchesSelected.Text">
         <source>{0}/{1} branches selected.</source>
-        <target>{0}/{1} веток выбрано.</target>
+        <target>{0}/{1} கிளைகள் தேர்ந்தெடுக்கப்பட்டன.</target>
         
       </trans-unit>
       <trans-unit id="_cancel.Text">
         <source>Cancel</source>
-        <target>Отмена</target>
+        <target>ரத்து</target>
         
       </trans-unit>
       <trans-unit id="_chooseBranchesToDelete.Text">
         <source>Choose branches to delete. Only branches that are fully merged in '{0}' will be deleted.</source>
-        <target>Выберите ветки которые хотите удалить. Только полностью слитые ветки в '{0}' будут удалены. </target>
+        <target>நீக்க கிளைகளைத் தேர்ந்தெடுக்கவும். '{0}' இல் முழுமையாக இணைக்கப்பட்ட கிளைகள் மட்டுமே நீக்கப்படும். </target>
         
       </trans-unit>
       <trans-unit id="_dangerousAction.Text">
