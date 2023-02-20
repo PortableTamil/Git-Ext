@@ -1,81 +1,12 @@
 
-         <source>x நாட்களை விட பழைய கிளைகளை நீக்கவும்</source>
-         <target>x நாட்களை விட பழைய கிளைகளை நீக்கவும்</target>
-        
-       </trans-unit>
-       <trans-unit id="label2.Text">
-         <source>கிளைகளில் முழுமையாக இணைக்கப்பட்ட கிளைகளை நீக்கவும்</source>
-         <target>ஒரு கிளையில் முழுமையாக இணைக்கப்பட்ட கிளைகளை நீக்கவும்</target>
-        
-       </trans-unit>
-       <trans-unit id="nameDataGridViewTextBoxColumn.HeaderText">
-         <source>பெயர்</source>
-         <இலக்கு>பெயர்</ இலக்கு>
-        
-       </trans-unit>
-       <trans-unit id="regexDoesNotMatch.Text">
-         <source>செய்கிறது
-		 பொருந்தவில்லை</source>
-         <target>பொருந்தவில்லை</target>
-        
-       </trans-unit>
-       <trans-unit id="regexFilter.Text">
-         <source>/(அம்சம்|மேம்படுத்து)/</source>
-         <இலக்கு>/(அம்சம்|மேம்படுத்து)/</ இலக்கு>
-        
-       </trans-unit>
-       <trans-unit id="useRegexCaseInsensitive.Text">
-         <source>Case insensitive</source>
-         <target>Case insensitive</target>
-        
-       </trans-unit>
-       <trans-unit id="useRegexFilter.Text">
-         <source>கிளைகளை வடிகட்ட ரெஜெக்ஸைப் பயன்படுத்தவும்</source>
-         <இலக்கு>கிளைகளை வடிகட்ட ரெஜெக்ஸைப் பயன்படுத்தவும்</target>
-        
-       </trans-unit>
-     </body>
-   </file>
-   <file datatype="plaintext" original="DeleteUnusedBranchesPlugin" source-language="en" target-language="en">
-     <உடல்>
-       <trans-unit id="Name.Text">
-         <source>காலாவதியான கிளைகளை நீக்கு</source>
-         <இலக்கு>காலாவதியான கிளைகளை அகற்று</target>
-        
-       </trans-unit>
-       <trans-unit id="_daysOlderThan.Caption">
-         <source>(நாட்கள்) விட பழைய கிளைகளை நீக்கவும்</source>
-         <target>(நாட்கள்) விட பழைய கிளைகளை அகற்றவும்</target>
-        
-       </trans-unit>
-       <trans-unit id="_deleteRemoteBranchesFromFlag.Caption">
-         <source>தொலைநிலையிலிருந்து வழக்கற்றுப் போன கிளைகளை நீக்கவும்</source>
-         <target>தொலைநிலைக் களஞ்சியத்திலிருந்து வழக்கற்றுப் போன கிளைகளை அகற்று</ இலக்கு>
-        
-       </trans-unit>
-       <trans-unit id="_includeUnmergedBranchesFlag.Caption">
-         <source>இணைக்கப்படாத கிளைகளை நீக்கு</source>
-         <இலக்கு>இணைக்கப்படாத கிளைகளை அகற்று</target>
-        
-       </trans-unit>
-       <trans-unit id="_mergedInBranch.Caption">
-         <source>அனைத்து கிளைகளும் இணைக்கப்பட வேண்டிய கிளை</source>
-         <target>அனைத்து கிளைகளும் இணைக்கப்பட வேண்டிய கிளை</target>
-        
-       </trans-unit>
-       <trans-unit id="_regexCaseInsensitiveFlag.Caption">
-         <source>regex வடிகட்டி கேஸ் உணர்வற்றதா?</source>
-         <target>ரீஜெக்ஸ் வடிகட்டலுக்கான வழக்கை புறக்கணிக்கவா?</target>
-        
-       </trans-unit>
        <trans-unit id="_regexFilter.Caption">
          <source>நீக்க கிளைகளை வடிகட்டுவதற்கு Regex</source>
-         <target>நீக்கத்திற்கான கிளைகளை வடிகட்டுவதற்கான வழக்கமான வெளிப்பாடு</target>
+         <target></target>
         
        </trans-unit>
        <trans-unit id="_regexInvertedFlag.Caption">
          <source>regex உடன் பொருந்தாத கிளைகளைத் தேடுங்கள்</source>
-         <target>வழக்கமான வெளிப்பாட்டுடன் பொருந்தாத கிளைகளைத் தேடுங்கள்</target>
+         <target></target>
         
        </trans-unit>
        <trans-unit id="_remoteName.Caption">

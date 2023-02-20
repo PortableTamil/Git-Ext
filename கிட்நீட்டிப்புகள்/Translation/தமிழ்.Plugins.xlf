@@ -421,37 +421,37 @@ Are you sure you want to continue?</source>
       </trans-unit>
       <trans-unit id="label1.Text">
         <source>Delete branches older than x days</source>
-        <target>நீக்கு ветки старше чем x дней</target>
+        <target>அ நாட்களை விட பழைய கிளைகளை நீக்கவும்</target>
         
       </trans-unit>
       <trans-unit id="label2.Text">
         <source>Delete branches fully merged into branch</source>
-        <target>நீக்கு ветки полностью слитые в ветку</target>
+        <target>கிளைகளில் முழுமையாக இணைக்கப்பட்ட கிளைகளை நீக்கவும்</target>
         
       </trans-unit>
       <trans-unit id="nameDataGridViewTextBoxColumn.HeaderText">
         <source>Name</source>
-        <target>Имя</target>
+        <target>பெயர்</target>
         
       </trans-unit>
       <trans-unit id="regexDoesNotMatch.Text">
         <source>Does not match</source>
-        <target>Не совпадает</target>
+        <target>பொருந்தவில்லை</target>
         
       </trans-unit>
       <trans-unit id="regexFilter.Text">
         <source>/(feature|develop)/</source>
-        <target>/(feature|develop)/</target>
+        <target>/(அம்சம்|மேம்படுத்து)/</target>
         
       </trans-unit>
       <trans-unit id="useRegexCaseInsensitive.Text">
         <source>Case insensitive</source>
-        <target>Без учета регистра</target>
+        <target>வழக்கு உணர்திறன்இல்லை</target>
         
       </trans-unit>
       <trans-unit id="useRegexFilter.Text">
         <source>Use regex to filter branches</source>
-        <target>Использовать regex чтобы отфильтровать ветки</target>
+        <target>கிளைகளை வடிகட்ட வழக்கவெளிபாட்டைப் பயன்படுத்தவும்</target>
         
       </trans-unit>
     </body>
@@ -460,42 +460,42 @@ Are you sure you want to continue?</source>
     <body>
       <trans-unit id="Name.Text">
         <source>Delete obsolete branches</source>
-        <target>நீக்கு устаревшие ветки</target>
+        <target>காலாவதியான கிளைகளை நீக்கு</target>
         
       </trans-unit>
       <trans-unit id="_daysOlderThan.Caption">
         <source>Delete obsolete branches older than (days)</source>
-        <target>நீக்கு устаревшие ветки старше чем (дней)</target>
+        <target>(நாட்கள்) விட பழைய கிளைகளை அகற்றவும்</target>
         
       </trans-unit>
       <trans-unit id="_deleteRemoteBranchesFromFlag.Caption">
         <source>Delete obsolete branches from remote</source>
-        <target>நீக்கு устаревшие ветки с удалённого репозитория</target>
+        <target>தொலைநிலையிலிருந்து வழக்கற்றுப் போன கிளைகளை நீக்கவும்</target>
         
       </trans-unit>
       <trans-unit id="_includeUnmergedBranchesFlag.Caption">
         <source>Delete unmerged branches</source>
-        <target>நீக்கு неслитые ветки</target>
+        <target>இணைக்கப்படாத கிளைகளை நீக்கு</target>
         
       </trans-unit>
       <trans-unit id="_mergedInBranch.Caption">
         <source>Branch where all branches should be merged in</source>
-        <target>Ветка в которую все ветки должны быть слиты</target>
+        <target>அனைத்து கிளைகளும் இணைக்கப்பட வேண்டிய கிளை</target>
         
       </trans-unit>
       <trans-unit id="_regexCaseInsensitiveFlag.Caption">
         <source>Is regex filter case insensitive?</source>
-        <target>Не учитывать регистр для фильтрации регулярным выражением?</target>
+        <target>வழக்கவெளி வடிகட்டி வழக்கு உணர்வற்றதா?</target>
         
       </trans-unit>
       <trans-unit id="_regexFilter.Caption">
         <source>Regex to filter branches to delete</source>
-        <target>Регулярное выражение для фильтрации веток под удаление</target>
+        <target>நீக்கத்திற்கான கிளைகளை வடிகட்டுவதற்கான வழக்கமான வெளிப்பாடு</target>
         
       </trans-unit>
       <trans-unit id="_regexInvertedFlag.Caption">
         <source>Search branches that does not match regex</source>
-        <target>Искать ветки несоответствующие регулярному выражению</target>
+        <target>வழக்கமான வெளிப்பாட்டுடன் பொருந்தாத கிளைகளைத் தேடுங்கள்</target>
         
       </trans-unit>
       <trans-unit id="_remoteName.Caption">
