@@ -17,4 +17,4 @@
 	process = git-lfs filter-process
 	required = true
 [credential]
-	helper = !\"C:/வட்டு/Git-Ext/கிட்நீட்டிப்புகள்/mingw64/bin/git-credential-manager.exe\"
+	helper = !\"Z:/Documents/கிட்படி/Git-Ext/கிட்நீட்டிப்புகள்/mingw64/bin/git-credential-manager.exe\"
